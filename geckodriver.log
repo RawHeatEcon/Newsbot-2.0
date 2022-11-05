@@ -1,0 +1,2299 @@
+1592893449087	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\WILLIA~1\\AppData\\Local\\Temp\\rust_mozprofileP6lkRT"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1592893451274	Marionette	INFO	Listening on port 56007
+1592893451704	Marionette	WARN	TLS certificate errors will be ignored for this session
+1592893455966	Marionette	INFO	Stopped listening on port 56007
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1592894249327	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\WILLIA~1\\AppData\\Local\\Temp\\rust_mozprofileZkifrU"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1592894251591	Marionette	INFO	Listening on port 56466
+1592894251947	Marionette	WARN	TLS certificate errors will be ignored for this session
+Unable to read VR Path Registry from C:\Users\William Roche\AppData\Local\openvr\openvrpaths.vrpath
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+1592894309523	Marionette	INFO	Stopped listening on port 56466
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1592894318592	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\WILLIA~1\\AppData\\Local\\Temp\\rust_mozprofile9U3K6f"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1592894320576	Marionette	INFO	Listening on port 56874
+1592894320628	Marionette	WARN	TLS certificate errors will be ignored for this session
+Unable to read VR Path Registry from C:\Users\William Roche\AppData\Local\openvr\openvrpaths.vrpath
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+[Child 5492, Chrome_ChildThread] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 522
+[Child 5492, Chrome_ChildThread] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 522
+[Child 5492, Chrome_ChildThread] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 522
+[Child 5492, Chrome_ChildThread] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 522
+1592894362849	Marionette	INFO	Stopped listening on port 56874
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1592894373761	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\WILLIA~1\\AppData\\Local\\Temp\\rust_mozprofilenJLjMk"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1592894375713	Marionette	INFO	Listening on port 57280
+1592894375786	Marionette	WARN	TLS certificate errors will be ignored for this session
+Unable to read VR Path Registry from C:\Users\William Roche\AppData\Local\openvr\openvrpaths.vrpath
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+1592894512260	Marionette	INFO	Stopped listening on port 57280
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1592894520032	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\WILLIA~1\\AppData\\Local\\Temp\\rust_mozprofile7jT8JJ"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1592894522010	Marionette	INFO	Listening on port 57708
+1592894522048	Marionette	WARN	TLS certificate errors will be ignored for this session
+Unable to read VR Path Registry from C:\Users\William Roche\AppData\Local\openvr\openvrpaths.vrpath
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+1592895515938	Marionette	INFO	Stopped listening on port 57708
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1592895523744	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\WILLIA~1\\AppData\\Local\\Temp\\rust_mozprofile7NJgBy"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1592895525695	Marionette	INFO	Listening on port 58545
+1592895525763	Marionette	WARN	TLS certificate errors will be ignored for this session
+Unable to read VR Path Registry from C:\Users\William Roche\AppData\Local\openvr\openvrpaths.vrpath
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+1592895585540	Marionette	INFO	Stopped listening on port 58545
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1592895594665	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\WILLIA~1\\AppData\\Local\\Temp\\rust_mozprofileUS9y6q"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1592895596480	Marionette	INFO	Listening on port 58866
+1592895596676	Marionette	WARN	TLS certificate errors will be ignored for this session
+Unable to read VR Path Registry from C:\Users\William Roche\AppData\Local\openvr\openvrpaths.vrpath
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+1592895745865	Marionette	INFO	Stopped listening on port 58866
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+1592895744154	Marionette	INFO	Stopped listening on port 59243
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+on port 59691
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1592895756571	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\WILLIA~1\\AppData\\Local\\Temp\\rust_mozprofileoGMRzu"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1592895758721	Marionette	INFO	Listening on port 60132
+1592895759187	Marionette	WARN	TLS certificate errors will be ignored for this session
+Unable to read VR Path Registry from C:\Users\William Roche\AppData\Local\openvr\openvrpaths.vrpath
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+1592897748366	Marionette	INFO	Stopped listening on port 60132
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1592898297879	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\WILLIA~1\\AppData\\Local\\Temp\\rust_mozprofile2El4P9"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1592898300333	Marionette	INFO	Listening on port 61320
+1592898300573	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://i.forbesimg.com/simple-site/dist/js/common-e9be5b41f15420db5af5.js, line 1: TypeError: t.apstag.targetingKeys is not a function
+JavaScript error: https://i.forbesimg.com/simple-site/dist/js/common-e9be5b41f15420db5af5.js, line 1: TypeError: t.apstag.targetingKeys is not a function
+Unable to read VR Path Registry from C:\Users\William Roche\AppData\Local\openvr\openvrpaths.vrpath
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1592898779982	Marionette	INFO	Stopped listening on port 61320
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1592955444905	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\WILLIA~1\\AppData\\Local\\Temp\\rust_mozprofileEikow6"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1592955447905	Marionette	INFO	Listening on port 58430
+1592955448026	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://assets.bwbx.io/s3/fence/v4/app.bundle.js, line 28: TypeError: window.__bloomberg__.abba.some is not a function
+JavaScript error: https://www.bloomberg.com/account/user-info?callback=__jp0, line 2: SyntaxError: expected expression, got '<'
+JavaScript error: https://assets.bwbx.io/s3/navi/js/header-d0dc499dcbb0516dc8e7.js, line 11: Error: Timed Out waiting for event: abba:ready
+1592955563142	Marionette	INFO	Stopped listening on port 58430
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1592955545438	Marionette	INFO	Listening on port 58670
+1592955545849	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://assets.bwbx.io/s3/fence/v4/app.bundle.js, line 28: TypeError: window.__bloomberg__.abba.some is not a function
+JavaScript error: https://www.bloomberg.com/account/user-info?callback=__jp0, line 2: SyntaxError: expected expression, got '<'
+JavaScript error: https://assets.bwbx.io/s3/navi/js/header-d0dc499dcbb0516dc8e7.js, line 11: Error: Timed Out waiting for event: abba:ready
+1592955564733	Marionette	INFO	Stopped listening on port 58670
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1592955584942	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\WILLIA~1\\AppData\\Local\\Temp\\rust_mozprofile4ikDpZ"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1592955587889	Marionette	INFO	Listening on port 58870
+1592955588065	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.bloomberg.com/account/user-info?callback=__jp0, line 2: SyntaxError: expected expression, got '<'
+JavaScript error: https://assets.bwbx.io/s3/fence/v4/app.bundle.js, line 28: TypeError: window.__bloomberg__.abba.some is not a function
+JavaScript error: https://assets.bwbx.io/s3/navi/js/header-d0dc499dcbb0516dc8e7.js, line 11: Error: Timed Out waiting for event: abba:ready
+console.error: "Store does not have a valid reducer. Make sure the argument passed to combineReducers is an object whose values are reducers."
+JavaScript error: , line 0: SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data
+JavaScript error: , line 0: SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data
+JavaScript error: , line 0: SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data
+JavaScript error: , line 0: SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data
+1592956212605	Marionette	INFO	Stopped listening on port 58870
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1592956226668	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\WILLIA~1\\AppData\\Local\\Temp\\rust_mozprofilewsxSvt"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1592956229272	Marionette	INFO	Listening on port 59366
+1592956229291	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://assets.bwbx.io/s3/fence/v4/app.bundle.js, line 28: TypeError: window.__bloomberg__.abba.some is not a function
+JavaScript error: https://www.bloomberg.com/account/user-info?callback=__jp0, line 2: SyntaxError: expected expression, got '<'
+JavaScript error: https://assets.bwbx.io/s3/navi/js/header-d0dc499dcbb0516dc8e7.js, line 11: Error: Timed Out waiting for event: abba:ready
+JavaScript error: , line 0: SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data
+1592956294430	Marionette	INFO	Stopped listening on port 59366
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1592956317556	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\WILLIA~1\\AppData\\Local\\Temp\\rust_mozprofilezrTIyY"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1592956319933	Marionette	INFO	Listening on port 59601
+1592956320180	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.bloomberg.com/account/user-info?callback=__jp0, line 2: SyntaxError: expected expression, got '<'
+JavaScript error: https://assets.bwbx.io/s3/fence/v4/app.bundle.js, line 28: TypeError: window.__bloomberg__.abba.some is not a function
+JavaScript error: https://assets.bwbx.io/s3/navi/js/header-d0dc499dcbb0516dc8e7.js, line 11: Error: Timed Out waiting for event: abba:ready
+1592956443889	Marionette	INFO	Stopped listening on port 59601
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1592956365508	Marionette	INFO	Listening on port 59793
+1592956365853	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.bloomberg.com/account/user-info?callback=__jp0, line 2: SyntaxError: expected expression, got '<'
+JavaScript error: https://assets.bwbx.io/s3/fence/v4/app.bundle.js, line 28: TypeError: window.__bloomberg__.abba.some is not a function
+JavaScript error: https://assets.bwbx.io/s3/navi/js/header-d0dc499dcbb0516dc8e7.js, line 11: Error: Timed Out waiting for event: abba:ready
+1592956444833	Marionette	INFO	Stopped listening on port 59793
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1592956453825	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\WILLIA~1\\AppData\\Local\\Temp\\rust_mozprofileUbZ5ww"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1592956456140	Marionette	INFO	Listening on port 60023
+1592956456444	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.bloomberg.com/account/user-info?callback=__jp0, line 2: SyntaxError: expected expression, got '<'
+JavaScript error: https://assets.bwbx.io/s3/fence/v4/app.bundle.js, line 28: TypeError: window.__bloomberg__.abba.some is not a function
+JavaScript error: https://assets.bwbx.io/s3/navi/js/header-d0dc499dcbb0516dc8e7.js, line 11: Error: Timed Out waiting for event: abba:ready
+1592956482515	Marionette	INFO	Stopped listening on port 60023
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1593033806356	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\WILLIA~1\\AppData\\Local\\Temp\\rust_mozprofileTGRszm"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1593033809863	Marionette	INFO	Listening on port 62753
+1593033809982	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.bloomberg.com/account/user-info?callback=__jp0, line 2: SyntaxError: expected expression, got '<'
+JavaScript error: https://assets.bwbx.io/s3/fence/v4/app.bundle.js, line 28: TypeError: window.__bloomberg__.abba.some is not a function
+JavaScript error: https://assets.bwbx.io/s3/navi/js/header-d0dc499dcbb0516dc8e7.js, line 11: Error: Timed Out waiting for event: abba:ready
+JavaScript error: https://eus.rubiconproject.com/usync.html?us_privacy=1YNY, line 12: SecurityError: The operation is insecure.
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+1593033822679	Marionette	INFO	Stopped listening on port 62753
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1593041222124	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\WILLIA~1\\AppData\\Local\\Temp\\rust_mozprofileayXbXJ"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1593041224177	Marionette	INFO	Listening on port 49970
+1593041224236	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.wsj.com/news/latest-headlines, line 117: SyntaxError: An invalid or illegal string was specified
+JavaScript error: https://eus.rubiconproject.com/usync.html, line 12: SecurityError: The operation is insecure.
+1593049695509	Marionette	INFO	Stopped listening on port 49970
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+on port 51410
+1593045545476	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.wsj.com/news/latest-headlines, line 117: SyntaxError: An invalid or illegal string was specified
+JavaScript error: https://eus.rubiconproject.com/usync.html, line 12: SecurityError: The operation is insecure.
+1593049697268	Marionette	INFO	Stopped listening on port 51410
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+on port 52716
+1593047724905	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.wsj.com/news/latest-headlines, line 117: SyntaxError: An invalid or illegal string was specified
+JavaScript error: https://cdn.cxense.com/cx.js, line 3: TypeError: object is null
+JavaScript error: https://cdn.cxense.com/cx.js, line 3: TypeError: object is null
+JavaScript error: https://cdn.cxense.com/cx.js, line 3: TypeError: object is null
+JavaScript error: https://eus.rubiconproject.com/usync.html, line 12: SecurityError: The operation is insecure.
+1593049698842	Marionette	INFO	Stopped listening on port 52716
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+XULStore.jsm, line 66: Error: Can't find profile directory.
+1593049670213	Marionette	INFO	Listening on port 53982
+1593049670315	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.wsj.com/news/latest-headlines, line 117: SyntaxError: An invalid or illegal string was specified
+JavaScript error: https://cdn.cxense.com/cx.js, line 3: TypeError: object is null
+JavaScript error: https://cdn.cxense.com/cx.js, line 3: TypeError: object is null
+JavaScript error: https://eus.rubiconproject.com/usync.html, line 12: SecurityError: The operation is insecure.
+1593049700335	Marionette	INFO	Stopped listening on port 53982
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1593049729698	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\WILLIA~1\\AppData\\Local\\Temp\\rust_mozprofileYY07ex"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1593049732246	Marionette	INFO	Listening on port 54289
+1593049732315	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.wsj.com/news/latest-headlines, line 117: SyntaxError: An invalid or illegal string was specified
+JavaScript error: https://eus.rubiconproject.com/usync.html, line 12: SecurityError: The operation is insecure.
+1593049803995	Marionette	INFO	Stopped listening on port 54289
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1593058766054	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\WILLIA~1\\AppData\\Local\\Temp\\rust_mozprofile4mToRN"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1593058768260	Marionette	INFO	Listening on port 56684
+1593058768680	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.wsj.com/news/latest-headlines, line 117: SyntaxError: An invalid or illegal string was specified
+1593058960005	Marionette	INFO	Stopped listening on port 56684
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1593058984476	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\WILLIA~1\\AppData\\Local\\Temp\\rust_mozprofile83qvhN"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1593058986881	Marionette	INFO	Listening on port 57202
+1593058987105	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.wsj.com/news/latest-headlines, line 117: SyntaxError: An invalid or illegal string was specified
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+1593059029661	Marionette	INFO	Stopped listening on port 57202
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1593059040425	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\WILLIA~1\\AppData\\Local\\Temp\\rust_mozprofileLPaok3"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1593059043010	Marionette	INFO	Listening on port 57757
+1593059043041	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.wsj.com/news/latest-headlines, line 117: SyntaxError: An invalid or illegal string was specified
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1593059130583	Marionette	INFO	Stopped listening on port 57757
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1593059153932	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\WILLIA~1\\AppData\\Local\\Temp\\rust_mozprofileyinOc1"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1593059156643	Marionette	INFO	Listening on port 58242
+1593059157047	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.wsj.com/news/latest-headlines, line 117: SyntaxError: An invalid or illegal string was specified
+JavaScript error: resource://gre/modules/NetworkGeolocationProvider.jsm, line 555: TypeError: xhr.response.location is undefined
+JavaScript error: https://cdn.cxense.com/cx.js, line 3: TypeError: object is null
+JavaScript error: https://cdn.cxense.com/cx.js, line 3: TypeError: object is null
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1593059212982	Marionette	INFO	Stopped listening on port 58242
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1593278032802	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\WILLIA~1\\AppData\\Local\\Temp\\rust_mozprofileM3lmx2"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1593278035890	Marionette	INFO	Listening on port 56242
+1593278035921	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.bloomberg.com/account/user-info?callback=__jp0, line 2: SyntaxError: expected expression, got '<'
+JavaScript error: https://assets.bwbx.io/s3/fence/v4/app.bundle.js, line 28: TypeError: window.__bloomberg__.abba.some is not a function
+JavaScript error: https://assets.bwbx.io/s3/navi/js/header-3231b0fea030684aa7d0.js, line 11: Error: Timed Out waiting for event: abba:ready
+JavaScript error: https://eus.rubiconproject.com/usync.html?us_privacy=1YNY, line 12: SecurityError: The operation is insecure.
+[Child 16100, Chrome_ChildThread] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 522
+1593278090576	Marionette	INFO	Stopped listening on port 56242
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+ be ignored for this session
+JavaScript error: https://www.wsj.com/news/latest-headlines, line 117: SyntaxError: An invalid or illegal string was specified
+JavaScript error: https://eus.rubiconproject.com/usync.html, line 12: SecurityError: The operation is insecure.
+1593278092137	Marionette	INFO	Stopped listening on port 56487
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1593291620167	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\WILLIA~1\\AppData\\Local\\Temp\\rust_mozprofilek3By4x"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1593291622249	Marionette	INFO	Listening on port 57570
+1593291622301	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://assets.bwbx.io/s3/fence/v4/app.bundle.js, line 28: TypeError: window.__bloomberg__.abba.some is not a function
+JavaScript error: https://www.bloomberg.com/account/user-info?callback=__jp0, line 2: SyntaxError: expected expression, got '<'
+JavaScript error: https://assets.bwbx.io/s3/navi/js/header-3231b0fea030684aa7d0.js, line 11: Error: Timed Out waiting for event: abba:ready
+JavaScript error: https://eus.rubiconproject.com/usync.html?us_privacy=1YNY, line 12: SecurityError: The operation is insecure.
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+[Child 14840, Chrome_ChildThread] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 522
+[Child 14840, Chrome_ChildThread] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 522
+[Child 14840, Chrome_ChildThread] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 522
+[Child 14840, Chrome_ChildThread] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 522
+1593291678332	Marionette	INFO	Stopped listening on port 57570
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1593299859740	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\WILLIA~1\\AppData\\Local\\Temp\\rust_mozprofileNC8gcl"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1593299862441	Marionette	INFO	Listening on port 60578
+1593299862856	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.bloomberg.com/account/user-info?callback=__jp0, line 2: SyntaxError: expected expression, got '<'
+JavaScript error: https://assets.bwbx.io/s3/fence/v4/app.bundle.js, line 28: TypeError: window.__bloomberg__.abba.some is not a function
+JavaScript error: https://assets.bwbx.io/s3/navi/js/header-3231b0fea030684aa7d0.js, line 11: Error: Timed Out waiting for event: abba:ready
+JavaScript error: https://eus.rubiconproject.com/usync.html?us_privacy=1YNY, line 12: SecurityError: The operation is insecure.
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+1593299878614	Marionette	INFO	Stopped listening on port 60578
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1593299882953	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\WILLIA~1\\AppData\\Local\\Temp\\rust_mozprofilelKMc4J"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1593299885363	Marionette	INFO	Listening on port 60826
+1593299885574	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.wsj.com/news/latest-headlines, line 117: SyntaxError: An invalid or illegal string was specified
+JavaScript error: https://eus.rubiconproject.com/usync.html, line 12: SecurityError: The operation is insecure.
+1593300193424	Marionette	INFO	Stopped listening on port 60826
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1593369107898	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\WILLIA~1\\AppData\\Local\\Temp\\rust_mozprofileilozmb"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1593369110767	Marionette	INFO	Listening on port 62504
+1593369111040	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://assets.bwbx.io/s3/navi/js/header-3231b0fea030684aa7d0.js, line 11: Error: Timed Out waiting for event: abba:ready
+JavaScript error: https://assets.bwbx.io/s3/fence/v4/app.bundle.js, line 28: TypeError: window.__bloomberg__.abba.some is not a function
+JavaScript error: https://www.bloomberg.com/account/user-info?callback=__jp0, line 2: SyntaxError: expected expression, got '<'
+JavaScript error: https://assets.bwbx.io/s3/spritz/v1.0.0/spritz.mjs, line 1: Error: ScriptInjector: Timed out loading "//js-sec.indexww.com/ht/p/184795-45553530326378.js" after 2000 ms
+JavaScript error: https://assets.bwbx.io/s3/spritz/v1.0.0/spritz.mjs, line 1: Error: ScriptInjector: Timed out loading "//js-sec.indexww.com/ht/p/184795-45553530326378.js" after 2000 ms
+JavaScript error: https://assets.bwbx.io/s3/spritz/v1.0.0/spritz.mjs, line 1: Error: ScriptInjector: Timed out loading "//js-sec.indexww.com/ht/p/184795-45553530326378.js" after 2000 ms
+JavaScript error: https://assets.bwbx.io/s3/spritz/v1.0.0/spritz.mjs, line 1: Error: ScriptInjector: Timed out loading "//js-sec.indexww.com/ht/p/184795-45553530326378.js" after 2000 ms
+JavaScript error: https://assets.bwbx.io/s3/spritz/v1.0.0/spritz.mjs, line 1: Error: ScriptInjector: Timed out loading "//js-sec.indexww.com/ht/p/184795-45553530326378.js" after 2000 ms
+JavaScript error: https://assets.bwbx.io/s3/spritz/v1.0.0/spritz.mjs, line 1: Error: ScriptInjector: Timed out loading "//js-sec.indexww.com/ht/p/184795-45553530326378.js" after 2000 ms
+JavaScript error: https://assets.bwbx.io/s3/spritz/v1.0.0/spritz.mjs, line 1: Error: ScriptInjector: Timed out loading "//js-sec.indexww.com/ht/p/184795-45553530326378.js" after 2000 ms
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1593369156527	Marionette	INFO	Stopped listening on port 62504
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1593369160474	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\WILLIA~1\\AppData\\Local\\Temp\\rust_mozprofilejuqkrg"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1593369162907	Marionette	INFO	Listening on port 62784
+1593369163102	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.wsj.com/news/latest-headlines, line 117: SyntaxError: An invalid or illegal string was specified
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x590011,name=PHttpChannel::Msg___delete__) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1593369198541	Marionette	INFO	Stopped listening on port 62784
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1593371484167	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\WILLIA~1\\AppData\\Local\\Temp\\rust_mozprofileoZIgIp"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1593371486825	Marionette	INFO	Listening on port 63118
+1593371487306	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://assets.bwbx.io/s3/fence/v4/app.bundle.js, line 28: TypeError: window.__bloomberg__.abba.some is not a function
+JavaScript error: https://www.bloomberg.com/account/user-info?callback=__jp0, line 2: SyntaxError: expected expression, got '<'
+JavaScript error: https://assets.bwbx.io/s3/navi/js/header-3231b0fea030684aa7d0.js, line 11: Error: Timed Out waiting for event: abba:ready
+JavaScript error: https://assets.bwbx.io/s3/spritz/v1.0.0/spritz.mjs, line 1: Error: ScriptInjector: Timed out loading "//js-sec.indexww.com/ht/p/184795-45553530326378.js" after 2000 ms
+JavaScript error: https://assets.bwbx.io/s3/spritz/v1.0.0/spritz.mjs, line 1: Error: ScriptInjector: Timed out loading "//js-sec.indexww.com/ht/p/184795-45553530326378.js" after 2000 ms
+JavaScript error: https://assets.bwbx.io/s3/spritz/v1.0.0/spritz.mjs, line 1: Error: ScriptInjector: Timed out loading "//js-sec.indexww.com/ht/p/184795-45553530326378.js" after 2000 ms
+JavaScript error: https://assets.bwbx.io/s3/spritz/v1.0.0/spritz.mjs, line 1: Error: ScriptInjector: Timed out loading "//js-sec.indexww.com/ht/p/184795-45553530326378.js" after 2000 ms
+JavaScript error: https://assets.bwbx.io/s3/spritz/v1.0.0/spritz.mjs, line 1: Error: ScriptInjector: Timed out loading "//js-sec.indexww.com/ht/p/184795-45553530326378.js" after 2000 ms
+JavaScript error: https://assets.bwbx.io/s3/spritz/v1.0.0/spritz.mjs, line 1: Error: ScriptInjector: Timed out loading "//js-sec.indexww.com/ht/p/184795-45553530326378.js" after 2000 ms
+JavaScript error: https://assets.bwbx.io/s3/spritz/v1.0.0/spritz.mjs, line 1: Error: ScriptInjector: Timed out loading "//js-sec.indexww.com/ht/p/184795-45553530326378.js" after 2000 ms
+1593371552635	Marionette	INFO	Stopped listening on port 63118
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1593371556565	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\WILLIA~1\\AppData\\Local\\Temp\\rust_mozprofileK5Daza"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1593371558936	Marionette	INFO	Listening on port 63401
+1593371559182	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.wsj.com/news/latest-headlines, line 117: SyntaxError: An invalid or illegal string was specified
+JavaScript error: resource://gre/modules/NetworkGeolocationProvider.jsm, line 555: TypeError: xhr.response.location is undefined
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1593371579036	Marionette	INFO	Stopped listening on port 63401
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1593371738756	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\WILLIA~1\\AppData\\Local\\Temp\\rust_mozprofileUKGlPS"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1593371740953	Marionette	INFO	Listening on port 63574
+1593371741375	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://assets.bwbx.io/s3/navi/js/header-3231b0fea030684aa7d0.js, line 11: Error: Timed Out waiting for event: abba:ready
+JavaScript error: https://www.bloomberg.com/account/user-info?callback=__jp0, line 2: SyntaxError: expected expression, got '<'
+JavaScript error: https://assets.bwbx.io/s3/fence/v4/app.bundle.js, line 28: TypeError: window.__bloomberg__.abba.some is not a function
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1593371827458	Marionette	INFO	Stopped listening on port 63574
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1593371831152	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\WILLIA~1\\AppData\\Local\\Temp\\rust_mozprofileVLifc4"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1593371833241	Marionette	INFO	Listening on port 64049
+1593371833271	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.wsj.com/news/latest-headlines, line 117: SyntaxError: An invalid or illegal string was specified
+JavaScript error: https://www.wsj.com/news/latest-headlines, line 171: NS_ERROR_NOT_INITIALIZED: 
+1593371880162	Marionette	INFO	Stopped listening on port 64049
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1593372136221	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\WILLIA~1\\AppData\\Local\\Temp\\rust_mozprofileXoNYDU"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1593372138300	Marionette	INFO	Listening on port 64391
+1593372138338	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://assets.bwbx.io/s3/fence/v4/app.bundle.js, line 28: TypeError: window.__bloomberg__.abba.some is not a function
+JavaScript error: https://assets.bwbx.io/s3/spritz/v1.0.0/spritz.mjs, line 1: Error: ScriptInjector: Timed out loading "//js-sec.indexww.com/ht/p/184795-45553530326378.js" after 2000 ms
+JavaScript error: https://assets.bwbx.io/s3/spritz/v1.0.0/spritz.mjs, line 1: Error: ScriptInjector: Timed out loading "//js-sec.indexww.com/ht/p/184795-45553530326378.js" after 2000 ms
+JavaScript error: https://assets.bwbx.io/s3/spritz/v1.0.0/spritz.mjs, line 1: Error: ScriptInjector: Timed out loading "//js-sec.indexww.com/ht/p/184795-45553530326378.js" after 2000 ms
+JavaScript error: https://assets.bwbx.io/s3/spritz/v1.0.0/spritz.mjs, line 1: Error: ScriptInjector: Timed out loading "//js-sec.indexww.com/ht/p/184795-45553530326378.js" after 2000 ms
+JavaScript error: https://assets.bwbx.io/s3/spritz/v1.0.0/spritz.mjs, line 1: Error: ScriptInjector: Timed out loading "//js-sec.indexww.com/ht/p/184795-45553530326378.js" after 2000 ms
+JavaScript error: https://assets.bwbx.io/s3/spritz/v1.0.0/spritz.mjs, line 1: Error: ScriptInjector: Timed out loading "//js-sec.indexww.com/ht/p/184795-45553530326378.js" after 2000 ms
+JavaScript error: https://assets.bwbx.io/s3/spritz/v1.0.0/spritz.mjs, line 1: Error: ScriptInjector: Timed out loading "//js-sec.indexww.com/ht/p/184795-45553530326378.js" after 2000 ms
+JavaScript error: https://assets.bwbx.io/s3/navi/js/header-3231b0fea030684aa7d0.js, line 11: Error: Timed Out waiting for event: abba:ready
+JavaScript error: https://www.bloomberg.com/account/user-info?callback=__jp0, line 2: SyntaxError: expected expression, got '<'
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1593372226268	Marionette	INFO	Stopped listening on port 64391
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1593372230054	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\WILLIA~1\\AppData\\Local\\Temp\\rust_mozprofileNPsUjU"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1593372232381	Marionette	INFO	Listening on port 64689
+1593372232668	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.wsj.com/news/latest-headlines, line 117: SyntaxError: An invalid or illegal string was specified
+1593372286214	Marionette	INFO	Stopped listening on port 64689
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1593372686476	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\WILLIA~1\\AppData\\Local\\Temp\\rust_mozprofileyKTgaV"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1593372688670	Marionette	INFO	Listening on port 64952
+1593372689093	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://assets.bwbx.io/s3/navi/js/header-3231b0fea030684aa7d0.js, line 11: Error: Timed Out waiting for event: abba:ready
+JavaScript error: https://assets.bwbx.io/s3/fence/v4/app.bundle.js, line 28: TypeError: window.__bloomberg__.abba.some is not a function
+JavaScript error: https://www.bloomberg.com/account/user-info?callback=__jp0, line 2: SyntaxError: expected expression, got '<'
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+1593372765858	Marionette	INFO	Stopped listening on port 64952
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1593372770683	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\WILLIA~1\\AppData\\Local\\Temp\\rust_mozprofilemg88Vg"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1593372772961	Marionette	INFO	Listening on port 65404
+1593372773299	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.wsj.com/news/latest-headlines, line 117: SyntaxError: An invalid or illegal string was specified
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x6A0029,name=PNecko::Msg_RemoveRequestContext) Channel closing: too late to send/recv, messages will be lost
+
+1593372826745	Marionette	INFO	Stopped listening on port 65404
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1593376549010	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\WILLIA~1\\AppData\\Local\\Temp\\rust_mozprofilejIUnqs"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1593376551447	Marionette	INFO	Listening on port 49588
+1593376551641	Marionette	WARN	TLS certificate errors will be ignored for this session
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1593376555791	Marionette	INFO	Stopped listening on port 49588
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1593404063606	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\WILLIA~1\\AppData\\Local\\Temp\\rust_mozprofilehzoNZ8"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1593404066990	Marionette	INFO	Listening on port 50663
+1593404067229	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.bloomberg.com/account/user-info?callback=__jp0, line 2: SyntaxError: expected expression, got '<'
+JavaScript error: https://assets.bwbx.io/s3/fence/v4/app.bundle.js, line 28: TypeError: window.__bloomberg__.abba.some is not a function
+JavaScript error: https://assets.bwbx.io/s3/navi/js/header-3231b0fea030684aa7d0.js, line 11: Error: Timed Out waiting for event: abba:ready
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+1593404088151	Marionette	INFO	Stopped listening on port 50663
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1593404091976	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\WILLIA~1\\AppData\\Local\\Temp\\rust_mozprofileUK1ltT"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1593404094139	Marionette	INFO	Listening on port 51008
+1593404094593	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.wsj.com/news/latest-headlines, line 117: SyntaxError: An invalid or illegal string was specified
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+JavaScript error: https://www.wsj.com/news/latest-headlines, line 171: NS_ERROR_NOT_INITIALIZED: 
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x380131,name=PContent::Msg_ScriptError) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1593404107564	Marionette	INFO	Stopped listening on port 51008
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1593405202864	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\WILLIA~1\\AppData\\Local\\Temp\\rust_mozprofileDsJcxg"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1593405205023	Marionette	INFO	Listening on port 51346
+1593405205486	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://assets.bwbx.io/s3/fence/v4/app.bundle.js, line 28: TypeError: window.__bloomberg__.abba.some is not a function
+JavaScript error: https://www.bloomberg.com/account/user-info?callback=__jp0, line 2: SyntaxError: expected expression, got '<'
+JavaScript error: https://assets.bwbx.io/s3/spritz/v1.0.0/spritz.mjs, line 1: Error: ScriptInjector: Timed out loading "//js-sec.indexww.com/ht/p/184795-45553530326378.js" after 2000 ms
+JavaScript error: https://assets.bwbx.io/s3/spritz/v1.0.0/spritz.mjs, line 1: Error: ScriptInjector: Timed out loading "//js-sec.indexww.com/ht/p/184795-45553530326378.js" after 2000 ms
+JavaScript error: https://assets.bwbx.io/s3/spritz/v1.0.0/spritz.mjs, line 1: Error: ScriptInjector: Timed out loading "//js-sec.indexww.com/ht/p/184795-45553530326378.js" after 2000 ms
+JavaScript error: https://assets.bwbx.io/s3/spritz/v1.0.0/spritz.mjs, line 1: Error: ScriptInjector: Timed out loading "//js-sec.indexww.com/ht/p/184795-45553530326378.js" after 2000 ms
+JavaScript error: https://assets.bwbx.io/s3/spritz/v1.0.0/spritz.mjs, line 1: Error: ScriptInjector: Timed out loading "//js-sec.indexww.com/ht/p/184795-45553530326378.js" after 2000 ms
+JavaScript error: https://assets.bwbx.io/s3/spritz/v1.0.0/spritz.mjs, line 1: Error: ScriptInjector: Timed out loading "//js-sec.indexww.com/ht/p/184795-45553530326378.js" after 2000 ms
+JavaScript error: https://assets.bwbx.io/s3/spritz/v1.0.0/spritz.mjs, line 1: Error: ScriptInjector: Timed out loading "//js-sec.indexww.com/ht/p/184795-45553530326378.js" after 2000 ms
+JavaScript error: https://assets.bwbx.io/s3/navi/js/header-3231b0fea030684aa7d0.js, line 11: Error: Timed Out waiting for event: abba:ready
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1593405251005	Marionette	INFO	Stopped listening on port 51346
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1593405255127	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\WILLIA~1\\AppData\\Local\\Temp\\rust_mozprofilem664qB"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1593405257319	Marionette	INFO	Listening on port 51608
+1593405257761	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.wsj.com/news/latest-headlines, line 117: SyntaxError: An invalid or illegal string was specified
+[Child 17468, Chrome_ChildThread] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 522
+1593405279718	Marionette	INFO	Stopped listening on port 51608
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1593405328121	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\WILLIA~1\\AppData\\Local\\Temp\\rust_mozprofile4eXlQz"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1593405330393	Marionette	INFO	Listening on port 51865
+1593405330746	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://assets.bwbx.io/s3/navi/js/header-3231b0fea030684aa7d0.js, line 11: Error: Timed Out waiting for event: abba:ready
+JavaScript error: https://assets.bwbx.io/s3/fence/v4/app.bundle.js, line 28: TypeError: window.__bloomberg__.abba.some is not a function
+JavaScript error: https://www.bloomberg.com/account/user-info?callback=__jp0, line 2: SyntaxError: expected expression, got '<'
+[Child 36632, Chrome_ChildThread] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 522
+[Child 36632, Chrome_ChildThread] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 522
+[Child 36632, Chrome_ChildThread] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 522
+[Child 36632, Chrome_ChildThread] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 522
+[Child 36632, Chrome_ChildThread] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 522
+1593405385184	Marionette	INFO	Stopped listening on port 51865
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1593405389275	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\WILLIA~1\\AppData\\Local\\Temp\\rust_mozprofile7HHXIm"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1593405391533	Marionette	INFO	Listening on port 52299
+1593405391898	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.wsj.com/news/latest-headlines, line 117: SyntaxError: An invalid or illegal string was specified
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1593405425013	Marionette	INFO	Stopped listening on port 52299
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1593478731706	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\WILLIA~1\\AppData\\Local\\Temp\\rust_mozprofilepprYEL"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1593478735016	Marionette	INFO	Listening on port 53517
+1593478735343	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.bloomberg.com/account/user-info?callback=__jp0, line 2: SyntaxError: expected expression, got '<'
+JavaScript error: https://assets.bwbx.io/s3/fence/v4/app.bundle.js, line 28: TypeError: window.__bloomberg__.abba.some is not a function
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+JavaScript error: https://eus.rubiconproject.com/usync.html?us_privacy=1YNY, line 12: SecurityError: The operation is insecure.
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+1593478751227	Marionette	INFO	Stopped listening on port 53517
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1593478756002	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\WILLIA~1\\AppData\\Local\\Temp\\rust_mozprofiletTEpot"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1593478758321	Marionette	INFO	Listening on port 53761
+1593478758615	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.wsj.com/news/latest-headlines, line 115: SyntaxError: An invalid or illegal string was specified
+JavaScript error: https://eus.rubiconproject.com/usync.html, line 12: SecurityError: The operation is insecure.
+[Child 31352, Chrome_ChildThread] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 522
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x380131,name=PContent::Msg_ScriptError) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x59000D,name=PHttpChannel::Msg_DeletingChannel) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x380131,name=PContent::Msg_ScriptError) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x380131,name=PContent::Msg_ScriptError) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x380131,name=PContent::Msg_ScriptError) Channel closing: too late to send/recv, messages will be lost
+
+1593478768810	Marionette	INFO	Stopped listening on port 53761
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1593478774438	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\WILLIA~1\\AppData\\Local\\Temp\\rust_mozprofilehSatAm"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1593478776966	Marionette	INFO	Listening on port 54017
+1593478777066	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.bloomberg.com/account/user-info?callback=__jp0, line 2: SyntaxError: expected expression, got '<'
+JavaScript error: https://assets.bwbx.io/s3/fence/v4/app.bundle.js, line 28: TypeError: window.__bloomberg__.abba.some is not a function
+JavaScript error: https://assets.bwbx.io/s3/navi/js/header-3231b0fea030684aa7d0.js, line 11: Error: Timed Out waiting for event: abba:ready
+JavaScript error: https://eus.rubiconproject.com/usync.html?us_privacy=1YNY, line 12: SecurityError: The operation is insecure.
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+[Child 2612, Chrome_ChildThread] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 522
+1593478788860	Marionette	INFO	Stopped listening on port 54017
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1593478793563	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\WILLIA~1\\AppData\\Local\\Temp\\rust_mozprofileRLlyhH"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1593478795940	Marionette	INFO	Listening on port 54249
+1593478796183	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.wsj.com/news/latest-headlines, line 115: SyntaxError: An invalid or illegal string was specified
+JavaScript error: https://eus.rubiconproject.com/usync.html, line 12: SecurityError: The operation is insecure.
+1593478806088	Marionette	INFO	Stopped listening on port 54249
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1593479384056	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\WILLIA~1\\AppData\\Local\\Temp\\rust_mozprofile0HR4uK"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1593479386516	Marionette	INFO	Listening on port 54509
+1593479386684	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://assets.bwbx.io/s3/fence/v4/app.bundle.js, line 28: TypeError: window.__bloomberg__.abba.some is not a function
+JavaScript error: https://www.bloomberg.com/account/user-info?callback=__jp0, line 2: SyntaxError: expected expression, got '<'
+JavaScript error: https://assets.bwbx.io/s3/navi/js/header-3231b0fea030684aa7d0.js, line 11: Error: Timed Out waiting for event: abba:ready
+JavaScript error: https://eus.rubiconproject.com/usync.html?us_privacy=1YNY, line 12: SecurityError: The operation is insecure.
+1593479402002	Marionette	INFO	Stopped listening on port 54509
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1593479406190	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\WILLIA~1\\AppData\\Local\\Temp\\rust_mozprofilewgVK1V"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1593479408812	Marionette	INFO	Listening on port 54748
+1593479409308	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.wsj.com/news/latest-headlines, line 115: SyntaxError: An invalid or illegal string was specified
+JavaScript error: https://eus.rubiconproject.com/usync.html, line 12: SecurityError: The operation is insecure.
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+1593479419521	Marionette	INFO	Stopped listening on port 54748
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1593479495940	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\WILLIA~1\\AppData\\Local\\Temp\\rust_mozprofilejdbFwE"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1593479498205	Marionette	INFO	Listening on port 55023
+1593479498556	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.bloomberg.com/account/user-info?callback=__jp0, line 2: SyntaxError: expected expression, got '<'
+JavaScript error: https://assets.bwbx.io/s3/fence/v4/app.bundle.js, line 28: TypeError: window.__bloomberg__.abba.some is not a function
+JavaScript error: https://assets.bwbx.io/s3/navi/js/header-3231b0fea030684aa7d0.js, line 11: Error: Timed Out waiting for event: abba:ready
+JavaScript error: https://eus.rubiconproject.com/usync.html?us_privacy=1YNY, line 12: SecurityError: The operation is insecure.
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+1593479514631	Marionette	INFO	Stopped listening on port 55023
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1593479518579	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\WILLIA~1\\AppData\\Local\\Temp\\rust_mozprofileMGZvVg"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1593479520757	Marionette	INFO	Listening on port 55275
+1593479521193	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.wsj.com/news/latest-headlines, line 115: SyntaxError: An invalid or illegal string was specified
+JavaScript error: https://eus.rubiconproject.com/usync.html, line 12: SecurityError: The operation is insecure.
+1593479531013	Marionette	INFO	Stopped listening on port 55275
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1593488548051	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\WILLIA~1\\AppData\\Local\\Temp\\rust_mozprofilegoxQX0"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1593488550039	Marionette	INFO	Listening on port 55607
+1593488550071	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.bloomberg.com/account/user-info?callback=__jp0, line 2: SyntaxError: expected expression, got '<'
+JavaScript error: https://assets.bwbx.io/s3/fence/v4/app.bundle.js, line 28: TypeError: window.__bloomberg__.abba.some is not a function
+JavaScript error: https://assets.bwbx.io/s3/navi/js/header-3231b0fea030684aa7d0.js, line 11: Error: Timed Out waiting for event: abba:ready
+JavaScript error: https://assets.bwbx.io/s3/spritz/v1.0.0/spritz.mjs, line 1: Error: ScriptInjector: Timed out loading "//js-sec.indexww.com/ht/p/184795-45553530326378.js" after 2000 ms
+JavaScript error: https://assets.bwbx.io/s3/spritz/v1.0.0/spritz.mjs, line 1: Error: ScriptInjector: Timed out loading "//js-sec.indexww.com/ht/p/184795-45553530326378.js" after 2000 ms
+JavaScript error: https://assets.bwbx.io/s3/spritz/v1.0.0/spritz.mjs, line 1: Error: ScriptInjector: Timed out loading "//js-sec.indexww.com/ht/p/184795-45553530326378.js" after 2000 ms
+JavaScript error: https://assets.bwbx.io/s3/spritz/v1.0.0/spritz.mjs, line 1: Error: ScriptInjector: Timed out loading "//js-sec.indexww.com/ht/p/184795-45553530326378.js" after 2000 ms
+JavaScript error: https://assets.bwbx.io/s3/spritz/v1.0.0/spritz.mjs, line 1: Error: ScriptInjector: Timed out loading "//js-sec.indexww.com/ht/p/184795-45553530326378.js" after 2000 ms
+JavaScript error: https://assets.bwbx.io/s3/spritz/v1.0.0/spritz.mjs, line 1: Error: ScriptInjector: Timed out loading "//js-sec.indexww.com/ht/p/184795-45553530326378.js" after 2000 ms
+JavaScript error: https://assets.bwbx.io/s3/spritz/v1.0.0/spritz.mjs, line 1: Error: ScriptInjector: Timed out loading "//js-sec.indexww.com/ht/p/184795-45553530326378.js" after 2000 ms
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1593488572608	Marionette	INFO	Stopped listening on port 55607
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1593488576512	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\WILLIA~1\\AppData\\Local\\Temp\\rust_mozprofileuzLp02"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1593488578392	Marionette	INFO	Listening on port 55854
+1593488578534	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.wsj.com/news/latest-headlines, line 115: SyntaxError: An invalid or illegal string was specified
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1593488605764	Marionette	INFO	Stopped listening on port 55854
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1593488743300	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\WILLIA~1\\AppData\\Local\\Temp\\rust_mozprofileis0z9n"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1593488745187	Marionette	INFO	Listening on port 56208
+1593488745314	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://assets.bwbx.io/s3/navi/js/header-3231b0fea030684aa7d0.js, line 11: Error: Timed Out waiting for event: abba:ready
+JavaScript error: https://assets.bwbx.io/s3/fence/v4/app.bundle.js, line 28: TypeError: window.__bloomberg__.abba.some is not a function
+JavaScript error: https://assets.bwbx.io/s3/spritz/v1.0.0/spritz.mjs, line 1: Error: ScriptInjector: Timed out loading "//js-sec.indexww.com/ht/p/184795-45553530326378.js" after 2000 ms
+JavaScript error: https://assets.bwbx.io/s3/spritz/v1.0.0/spritz.mjs, line 1: Error: ScriptInjector: Timed out loading "//js-sec.indexww.com/ht/p/184795-45553530326378.js" after 2000 ms
+JavaScript error: https://assets.bwbx.io/s3/spritz/v1.0.0/spritz.mjs, line 1: Error: ScriptInjector: Timed out loading "//js-sec.indexww.com/ht/p/184795-45553530326378.js" after 2000 ms
+JavaScript error: https://assets.bwbx.io/s3/spritz/v1.0.0/spritz.mjs, line 1: Error: ScriptInjector: Timed out loading "//js-sec.indexww.com/ht/p/184795-45553530326378.js" after 2000 ms
+JavaScript error: https://assets.bwbx.io/s3/spritz/v1.0.0/spritz.mjs, line 1: Error: ScriptInjector: Timed out loading "//js-sec.indexww.com/ht/p/184795-45553530326378.js" after 2000 ms
+JavaScript error: https://assets.bwbx.io/s3/spritz/v1.0.0/spritz.mjs, line 1: Error: ScriptInjector: Timed out loading "//js-sec.indexww.com/ht/p/184795-45553530326378.js" after 2000 ms
+JavaScript error: https://assets.bwbx.io/s3/spritz/v1.0.0/spritz.mjs, line 1: Error: ScriptInjector: Timed out loading "//js-sec.indexww.com/ht/p/184795-45553530326378.js" after 2000 ms
+JavaScript error: https://www.bloomberg.com/account/user-info?callback=__jp0, line 2: SyntaxError: expected expression, got '<'
+1593488809795	Marionette	INFO	Stopped listening on port 56208
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1593488813722	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\WILLIA~1\\AppData\\Local\\Temp\\rust_mozprofileqgxREH"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1593488815604	Marionette	INFO	Listening on port 56455
+1593488815735	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.wsj.com/news/latest-headlines, line 115: SyntaxError: An invalid or illegal string was specified
+1593488825668	Marionette	INFO	Stopped listening on port 56455
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1593492207428	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\WILLIA~1\\AppData\\Local\\Temp\\rust_mozprofile9XKmeQ"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1593492209398	Marionette	INFO	Listening on port 56721
+1593492209442	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://assets.bwbx.io/s3/fence/v4/app.bundle.js, line 28: TypeError: window.__bloomberg__.abba.some is not a function
+JavaScript error: https://www.bloomberg.com/account/user-info?callback=__jp0, line 2: SyntaxError: expected expression, got '<'
+JavaScript error: https://assets.bwbx.io/s3/navi/js/header-3231b0fea030684aa7d0.js, line 11: Error: Timed Out waiting for event: abba:ready
+1593492249664	Marionette	INFO	Stopped listening on port 56721
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1593492254852	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\WILLIA~1\\AppData\\Local\\Temp\\rust_mozprofileaXWvq4"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1593492256908	Marionette	INFO	Listening on port 57108
+1593492256967	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.wsj.com/news/latest-headlines, line 115: SyntaxError: An invalid or illegal string was specified
+1593492278919	Marionette	INFO	Stopped listening on port 57108
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1593492465147	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\WILLIA~1\\AppData\\Local\\Temp\\rust_mozprofilebvUJz9"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1593492466983	Marionette	INFO	Listening on port 57389
+1593492467162	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://assets.bwbx.io/s3/fence/v4/app.bundle.js, line 28: TypeError: window.__bloomberg__.abba.some is not a function
+JavaScript error: https://assets.bwbx.io/s3/navi/js/header-3231b0fea030684aa7d0.js, line 11: Error: Timed Out waiting for event: abba:ready
+JavaScript error: https://www.bloomberg.com/account/user-info?callback=__jp0, line 2: SyntaxError: expected expression, got '<'
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x6A0029,name=PNecko::Msg_RemoveRequestContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x380131,name=PContent::Msg_ScriptError) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x59000D,name=PHttpChannel::Msg_DeletingChannel) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x59000D,name=PHttpChannel::Msg_DeletingChannel) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x59000D,name=PHttpChannel::Msg_DeletingChannel) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1593492509556	Marionette	INFO	Stopped listening on port 57389
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1593492515097	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\WILLIA~1\\AppData\\Local\\Temp\\rust_mozprofiletg1DBx"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1593492516914	Marionette	INFO	Listening on port 57771
+1593492517112	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.wsj.com/news/latest-headlines, line 115: SyntaxError: An invalid or illegal string was specified
+JavaScript error: https://www.wsj.com/news/latest-headlines, line 169: NS_ERROR_NOT_INITIALIZED: 
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x6A0029,name=PNecko::Msg_RemoveRequestContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1593492568348	Marionette	INFO	Stopped listening on port 57771
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1593492657168	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\WILLIA~1\\AppData\\Local\\Temp\\rust_mozprofileR3WYe3"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1593492658950	Marionette	INFO	Listening on port 58175
+1593492659201	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://assets.bwbx.io/s3/navi/js/header-3231b0fea030684aa7d0.js, line 11: Error: Timed Out waiting for event: abba:ready
+JavaScript error: https://assets.bwbx.io/s3/fence/v4/app.bundle.js, line 28: TypeError: window.__bloomberg__.abba.some is not a function
+JavaScript error: https://assets.bwbx.io/s3/spritz/v1.0.0/spritz.mjs, line 1: Error: ScriptInjector: Timed out loading "//js-sec.indexww.com/ht/p/184795-45553530326378.js" after 2000 ms
+JavaScript error: https://assets.bwbx.io/s3/spritz/v1.0.0/spritz.mjs, line 1: Error: ScriptInjector: Timed out loading "//js-sec.indexww.com/ht/p/184795-45553530326378.js" after 2000 ms
+JavaScript error: https://assets.bwbx.io/s3/spritz/v1.0.0/spritz.mjs, line 1: Error: ScriptInjector: Timed out loading "//js-sec.indexww.com/ht/p/184795-45553530326378.js" after 2000 ms
+JavaScript error: https://assets.bwbx.io/s3/spritz/v1.0.0/spritz.mjs, line 1: Error: ScriptInjector: Timed out loading "//js-sec.indexww.com/ht/p/184795-45553530326378.js" after 2000 ms
+JavaScript error: https://assets.bwbx.io/s3/spritz/v1.0.0/spritz.mjs, line 1: Error: ScriptInjector: Timed out loading "//js-sec.indexww.com/ht/p/184795-45553530326378.js" after 2000 ms
+JavaScript error: https://assets.bwbx.io/s3/spritz/v1.0.0/spritz.mjs, line 1: Error: ScriptInjector: Timed out loading "//js-sec.indexww.com/ht/p/184795-45553530326378.js" after 2000 ms
+JavaScript error: https://assets.bwbx.io/s3/spritz/v1.0.0/spritz.mjs, line 1: Error: ScriptInjector: Timed out loading "//js-sec.indexww.com/ht/p/184795-45553530326378.js" after 2000 ms
+JavaScript error: https://www.bloomberg.com/account/user-info?callback=__jp0, line 2: SyntaxError: expected expression, got '<'
+1593492687306	Marionette	INFO	Stopped listening on port 58175
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1593492691523	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\WILLIA~1\\AppData\\Local\\Temp\\rust_mozprofileGUYCsc"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1593492693452	Marionette	INFO	Listening on port 58432
+1593492693537	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.wsj.com/news/latest-headlines, line 115: SyntaxError: An invalid or illegal string was specified
+JavaScript error: https://www.wsj.com/news/latest-headlines, line 169: NS_ERROR_NOT_INITIALIZED: 
+1593492730329	Marionette	INFO	Stopped listening on port 58432
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1593492877299	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\WILLIA~1\\AppData\\Local\\Temp\\rust_mozprofilesKr3D4"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1593492879165	Marionette	INFO	Listening on port 58803
+1593492879317	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://assets.bwbx.io/s3/navi/js/header-3231b0fea030684aa7d0.js, line 11: Error: Timed Out waiting for event: abba:ready
+JavaScript error: https://assets.bwbx.io/s3/spritz/v1.0.0/spritz.mjs, line 1: Error: ScriptInjector: Timed out loading "//js-sec.indexww.com/ht/p/184795-45553530326378.js" after 2000 ms
+JavaScript error: https://assets.bwbx.io/s3/spritz/v1.0.0/spritz.mjs, line 1: Error: ScriptInjector: Timed out loading "//js-sec.indexww.com/ht/p/184795-45553530326378.js" after 2000 ms
+JavaScript error: https://assets.bwbx.io/s3/spritz/v1.0.0/spritz.mjs, line 1: Error: ScriptInjector: Timed out loading "//js-sec.indexww.com/ht/p/184795-45553530326378.js" after 2000 ms
+JavaScript error: https://assets.bwbx.io/s3/spritz/v1.0.0/spritz.mjs, line 1: Error: ScriptInjector: Timed out loading "//js-sec.indexww.com/ht/p/184795-45553530326378.js" after 2000 ms
+JavaScript error: https://assets.bwbx.io/s3/spritz/v1.0.0/spritz.mjs, line 1: Error: ScriptInjector: Timed out loading "//js-sec.indexww.com/ht/p/184795-45553530326378.js" after 2000 ms
+JavaScript error: https://assets.bwbx.io/s3/spritz/v1.0.0/spritz.mjs, line 1: Error: ScriptInjector: Timed out loading "//js-sec.indexww.com/ht/p/184795-45553530326378.js" after 2000 ms
+JavaScript error: https://assets.bwbx.io/s3/spritz/v1.0.0/spritz.mjs, line 1: Error: ScriptInjector: Timed out loading "//js-sec.indexww.com/ht/p/184795-45553530326378.js" after 2000 ms
+JavaScript error: https://www.bloomberg.com/account/user-info?callback=__jp0, line 2: SyntaxError: expected expression, got '<'
+JavaScript error: https://assets.bwbx.io/s3/fence/v4/app.bundle.js, line 28: TypeError: window.__bloomberg__.abba.some is not a function
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1593492912005	Marionette	INFO	Stopped listening on port 58803
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1593492915686	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\WILLIA~1\\AppData\\Local\\Temp\\rust_mozprofileKxMewM"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1593492918237	Marionette	INFO	Listening on port 59062
+1593492918301	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.wsj.com/news/latest-headlines, line 115: SyntaxError: An invalid or illegal string was specified
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+JavaScript error: https://www.wsj.com/news/latest-headlines, line 169: NS_ERROR_NOT_INITIALIZED: 
+1593492982707	Marionette	INFO	Stopped listening on port 59062
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1593493161485	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\WILLIA~1\\AppData\\Local\\Temp\\rust_mozprofileSmxCDd"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1593493163851	Marionette	INFO	Listening on port 59401
+1593493164115	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://assets.bwbx.io/s3/navi/js/header-3231b0fea030684aa7d0.js, line 11: Error: Timed Out waiting for event: abba:ready
+JavaScript error: https://assets.bwbx.io/s3/fence/v4/app.bundle.js, line 28: TypeError: window.__bloomberg__.abba.some is not a function
+JavaScript error: https://www.bloomberg.com/account/user-info?callback=__jp0, line 2: SyntaxError: expected expression, got '<'
+JavaScript error: https://assets.bwbx.io/s3/spritz/v1.0.0/spritz.mjs, line 1: Error: ScriptInjector: Timed out loading "//js-sec.indexww.com/ht/p/184795-45553530326378.js" after 2000 ms
+JavaScript error: https://assets.bwbx.io/s3/spritz/v1.0.0/spritz.mjs, line 1: Error: ScriptInjector: Timed out loading "//js-sec.indexww.com/ht/p/184795-45553530326378.js" after 2000 ms
+JavaScript error: https://assets.bwbx.io/s3/spritz/v1.0.0/spritz.mjs, line 1: Error: ScriptInjector: Timed out loading "//js-sec.indexww.com/ht/p/184795-45553530326378.js" after 2000 ms
+JavaScript error: https://assets.bwbx.io/s3/spritz/v1.0.0/spritz.mjs, line 1: Error: ScriptInjector: Timed out loading "//js-sec.indexww.com/ht/p/184795-45553530326378.js" after 2000 ms
+JavaScript error: https://assets.bwbx.io/s3/spritz/v1.0.0/spritz.mjs, line 1: Error: ScriptInjector: Timed out loading "//js-sec.indexww.com/ht/p/184795-45553530326378.js" after 2000 ms
+JavaScript error: https://assets.bwbx.io/s3/spritz/v1.0.0/spritz.mjs, line 1: Error: ScriptInjector: Timed out loading "//js-sec.indexww.com/ht/p/184795-45553530326378.js" after 2000 ms
+JavaScript error: https://assets.bwbx.io/s3/spritz/v1.0.0/spritz.mjs, line 1: Error: ScriptInjector: Timed out loading "//js-sec.indexww.com/ht/p/184795-45553530326378.js" after 2000 ms
+1593493269659	Marionette	INFO	Stopped listening on port 59401
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1593493278109	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\WILLIA~1\\AppData\\Local\\Temp\\rust_mozprofilevbqH4C"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1593493280632	Marionette	INFO	Listening on port 59701
+1593493280728	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.wsj.com/news/latest-headlines, line 115: SyntaxError: An invalid or illegal string was specified
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+1593493330607	Marionette	INFO	Stopped listening on port 59701
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1593495957982	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\WILLIA~1\\AppData\\Local\\Temp\\rust_mozprofile80yR4P"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1593495960446	Marionette	INFO	Listening on port 60118
+1593495960597	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://assets.bwbx.io/s3/fence/v4/app.bundle.js, line 28: TypeError: window.__bloomberg__.abba.some is not a function
+JavaScript error: https://www.bloomberg.com/account/user-info?callback=__jp0, line 2: SyntaxError: expected expression, got '<'
+JavaScript error: https://assets.bwbx.io/s3/navi/js/header-3231b0fea030684aa7d0.js, line 11: Error: Timed Out waiting for event: abba:ready
+1593496034164	Marionette	INFO	Stopped listening on port 60118
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1593496038458	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\WILLIA~1\\AppData\\Local\\Temp\\rust_mozprofileFhPY6N"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1593496040634	Marionette	INFO	Listening on port 60456
+1593496041070	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.wsj.com/news/latest-headlines, line 115: SyntaxError: An invalid or illegal string was specified
+JavaScript error: resource://gre/modules/NetworkGeolocationProvider.jsm, line 555: TypeError: xhr.response.location is undefined
+1593496063311	Marionette	INFO	Stopped listening on port 60456
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1593496472885	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\WILLIA~1\\AppData\\Local\\Temp\\rust_mozprofile7xIW9P"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1593496475002	Marionette	INFO	Listening on port 60683
+1593496475029	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://assets.bwbx.io/s3/navi/js/header-3231b0fea030684aa7d0.js, line 11: Error: Timed Out waiting for event: abba:ready
+JavaScript error: https://assets.bwbx.io/s3/fence/v4/app.bundle.js, line 28: TypeError: window.__bloomberg__.abba.some is not a function
+JavaScript error: https://www.bloomberg.com/account/user-info?callback=__jp0, line 2: SyntaxError: expected expression, got '<'
+JavaScript error: https://eus.rubiconproject.com/usync.html?us_privacy=1YNY, line 12: SecurityError: The operation is insecure.
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x590011,name=PHttpChannel::Msg___delete__) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x6A0029,name=PNecko::Msg_RemoveRequestContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1593496552170	Marionette	INFO	Stopped listening on port 60683
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1593496556525	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\WILLIA~1\\AppData\\Local\\Temp\\rust_mozprofileAvB2bR"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1593496559140	Marionette	INFO	Listening on port 61065
+1593496559153	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.wsj.com/news/latest-headlines, line 115: SyntaxError: An invalid or illegal string was specified
+1593496585321	Marionette	INFO	Stopped listening on port 61065
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1593497473584	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\WILLIA~1\\AppData\\Local\\Temp\\rust_mozprofileBAOIT0"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1593497476633	Marionette	INFO	Listening on port 61463
+1593497476704	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://cdn.taboola.com/libtrc/bloomberg/loader.js, line 19: TypeError: t.TRCImpl.getGlobalSessionData is undefined
+JavaScript error: https://assets.bwbx.io/s3/navi/js/header-3231b0fea030684aa7d0.js, line 11: Error: Timed Out waiting for event: abba:ready
+JavaScript error: https://assets.bwbx.io/s3/spritz/v1.0.0/spritz.mjs, line 1: Error: ScriptInjector: Timed out loading "//js-sec.indexww.com/ht/p/184795-45553530326378.js" after 2000 ms
+JavaScript error: https://assets.bwbx.io/s3/spritz/v1.0.0/spritz.mjs, line 1: Error: ScriptInjector: Timed out loading "//js-sec.indexww.com/ht/p/184795-45553530326378.js" after 2000 ms
+JavaScript error: https://assets.bwbx.io/s3/spritz/v1.0.0/spritz.mjs, line 1: Error: ScriptInjector: Timed out loading "//js-sec.indexww.com/ht/p/184795-45553530326378.js" after 2000 ms
+JavaScript error: https://assets.bwbx.io/s3/spritz/v1.0.0/spritz.mjs, line 1: Error: ScriptInjector: Timed out loading "//js-sec.indexww.com/ht/p/184795-45553530326378.js" after 2000 ms
+JavaScript error: https://assets.bwbx.io/s3/spritz/v1.0.0/spritz.mjs, line 1: Error: ScriptInjector: Timed out loading "//js-sec.indexww.com/ht/p/184795-45553530326378.js" after 2000 ms
+JavaScript error: https://assets.bwbx.io/s3/spritz/v1.0.0/spritz.mjs, line 1: Error: ScriptInjector: Timed out loading "//js-sec.indexww.com/ht/p/184795-45553530326378.js" after 2000 ms
+JavaScript error: https://assets.bwbx.io/s3/spritz/v1.0.0/spritz.mjs, line 1: Error: ScriptInjector: Timed out loading "//js-sec.indexww.com/ht/p/184795-45553530326378.js" after 2000 ms
+JavaScript error: https://assets.bwbx.io/s3/fence/v4/app.bundle.js, line 28: TypeError: window.__bloomberg__.abba.some is not a function
+JavaScript error: https://www.bloomberg.com/account/user-info?callback=__jp0, line 2: SyntaxError: expected expression, got '<'
+1593497589044	Marionette	INFO	Stopped listening on port 61463
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1593497592883	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\WILLIA~1\\AppData\\Local\\Temp\\rust_mozprofileienoPC"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1593497595170	Marionette	INFO	Listening on port 61743
+1593497595531	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.wsj.com/news/latest-headlines, line 115: SyntaxError: An invalid or illegal string was specified
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+1593497636313	Marionette	INFO	Stopped listening on port 61743
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1593498872888	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\WILLIA~1\\AppData\\Local\\Temp\\rust_mozprofilesE4Fen"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1593498875239	Marionette	INFO	Listening on port 62016
+1593498875506	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://assets.bwbx.io/s3/navi/js/header-3231b0fea030684aa7d0.js, line 11: Error: Timed Out waiting for event: abba:ready
+JavaScript error: https://www.bloomberg.com/account/user-info?callback=__jp0, line 2: SyntaxError: expected expression, got '<'
+JavaScript error: https://assets.bwbx.io/s3/spritz/v1.0.0/spritz.mjs, line 1: Error: ScriptInjector: Timed out loading "//js-sec.indexww.com/ht/p/184795-45553530326378.js" after 2000 ms
+JavaScript error: https://assets.bwbx.io/s3/spritz/v1.0.0/spritz.mjs, line 1: Error: ScriptInjector: Timed out loading "//js-sec.indexww.com/ht/p/184795-45553530326378.js" after 2000 ms
+JavaScript error: https://assets.bwbx.io/s3/spritz/v1.0.0/spritz.mjs, line 1: Error: ScriptInjector: Timed out loading "//js-sec.indexww.com/ht/p/184795-45553530326378.js" after 2000 ms
+JavaScript error: https://assets.bwbx.io/s3/spritz/v1.0.0/spritz.mjs, line 1: Error: ScriptInjector: Timed out loading "//js-sec.indexww.com/ht/p/184795-45553530326378.js" after 2000 ms
+JavaScript error: https://assets.bwbx.io/s3/spritz/v1.0.0/spritz.mjs, line 1: Error: ScriptInjector: Timed out loading "//js-sec.indexww.com/ht/p/184795-45553530326378.js" after 2000 ms
+JavaScript error: https://assets.bwbx.io/s3/spritz/v1.0.0/spritz.mjs, line 1: Error: ScriptInjector: Timed out loading "//js-sec.indexww.com/ht/p/184795-45553530326378.js" after 2000 ms
+JavaScript error: https://assets.bwbx.io/s3/spritz/v1.0.0/spritz.mjs, line 1: Error: ScriptInjector: Timed out loading "//js-sec.indexww.com/ht/p/184795-45553530326378.js" after 2000 ms
+JavaScript error: https://assets.bwbx.io/s3/fence/v4/app.bundle.js, line 28: TypeError: window.__bloomberg__.abba.some is not a function
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1593498931101	Marionette	INFO	Stopped listening on port 62016
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1593498934872	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\WILLIA~1\\AppData\\Local\\Temp\\rust_mozprofileG1Vkdl"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1593498937348	Marionette	INFO	Listening on port 62288
+1593498937497	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.wsj.com/news/latest-headlines, line 115: SyntaxError: An invalid or illegal string was specified
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1593499082795	Marionette	INFO	Stopped listening on port 62288
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1593499479719	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\WILLIA~1\\AppData\\Local\\Temp\\rust_mozprofileg9xZSR"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1593499481977	Marionette	INFO	Listening on port 62644
+1593499482351	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://assets.bwbx.io/s3/fence/v4/app.bundle.js, line 28: TypeError: window.__bloomberg__.abba.some is not a function
+JavaScript error: https://assets.bwbx.io/s3/navi/js/header-3231b0fea030684aa7d0.js, line 11: Error: Timed Out waiting for event: abba:ready
+JavaScript error: https://assets.bwbx.io/s3/spritz/v1.0.0/spritz.mjs, line 1: Error: ScriptInjector: Timed out loading "//js-sec.indexww.com/ht/p/184795-45553530326378.js" after 2000 ms
+JavaScript error: https://assets.bwbx.io/s3/spritz/v1.0.0/spritz.mjs, line 1: Error: ScriptInjector: Timed out loading "//js-sec.indexww.com/ht/p/184795-45553530326378.js" after 2000 ms
+JavaScript error: https://assets.bwbx.io/s3/spritz/v1.0.0/spritz.mjs, line 1: Error: ScriptInjector: Timed out loading "//js-sec.indexww.com/ht/p/184795-45553530326378.js" after 2000 ms
+JavaScript error: https://assets.bwbx.io/s3/spritz/v1.0.0/spritz.mjs, line 1: Error: ScriptInjector: Timed out loading "//js-sec.indexww.com/ht/p/184795-45553530326378.js" after 2000 ms
+JavaScript error: https://assets.bwbx.io/s3/spritz/v1.0.0/spritz.mjs, line 1: Error: ScriptInjector: Timed out loading "//js-sec.indexww.com/ht/p/184795-45553530326378.js" after 2000 ms
+JavaScript error: https://assets.bwbx.io/s3/spritz/v1.0.0/spritz.mjs, line 1: Error: ScriptInjector: Timed out loading "//js-sec.indexww.com/ht/p/184795-45553530326378.js" after 2000 ms
+JavaScript error: https://assets.bwbx.io/s3/spritz/v1.0.0/spritz.mjs, line 1: Error: ScriptInjector: Timed out loading "//js-sec.indexww.com/ht/p/184795-45553530326378.js" after 2000 ms
+JavaScript error: https://www.bloomberg.com/account/user-info?callback=__jp0, line 2: SyntaxError: expected expression, got '<'
+1593499542643	Marionette	INFO	Stopped listening on port 62644
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1593499546651	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\WILLIA~1\\AppData\\Local\\Temp\\rust_mozprofile2iOY3u"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1593499548965	Marionette	INFO	Listening on port 62893
+1593499549271	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.wsj.com/news/latest-headlines, line 115: SyntaxError: An invalid or illegal string was specified
+JavaScript error: resource://gre/modules/NetworkGeolocationProvider.jsm, line 555: TypeError: xhr.response.location is undefined
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+1593499600408	Marionette	INFO	Stopped listening on port 62893
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1593499684558	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\WILLIA~1\\AppData\\Local\\Temp\\rust_mozprofileDuWlCN"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1593499687061	Marionette	INFO	Listening on port 63176
+1593499687179	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://assets.bwbx.io/s3/navi/js/header-3231b0fea030684aa7d0.js, line 11: Error: Timed Out waiting for event: abba:ready
+JavaScript error: https://assets.bwbx.io/s3/fence/v4/app.bundle.js, line 28: TypeError: window.__bloomberg__.abba.some is not a function
+JavaScript error: https://www.bloomberg.com/account/user-info?callback=__jp0, line 2: SyntaxError: expected expression, got '<'
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x380131,name=PContent::Msg_ScriptError) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x59000D,name=PHttpChannel::Msg_DeletingChannel) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1593499785746	Marionette	INFO	Stopped listening on port 63176
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1593499791387	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\WILLIA~1\\AppData\\Local\\Temp\\rust_mozprofileW4ofdF"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1593499793715	Marionette	INFO	Listening on port 63535
+1593499794006	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.wsj.com/news/latest-headlines, line 115: SyntaxError: An invalid or illegal string was specified
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+1593499838150	Marionette	INFO	Stopped listening on port 63535
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1593499912265	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\WILLIA~1\\AppData\\Local\\Temp\\rust_mozprofilev0rkIl"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1593499914594	Marionette	INFO	Listening on port 63771
+1593499914884	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://assets.bwbx.io/s3/navi/js/header-3231b0fea030684aa7d0.js, line 11: Error: Timed Out waiting for event: abba:ready
+JavaScript error: https://www.bloomberg.com/account/user-info?callback=__jp0, line 2: SyntaxError: expected expression, got '<'
+JavaScript error: https://assets.bwbx.io/s3/fence/v4/app.bundle.js, line 28: TypeError: window.__bloomberg__.abba.some is not a function
+JavaScript error: https://assets.bwbx.io/s3/spritz/v1.0.0/spritz.mjs, line 1: Error: ScriptInjector: Timed out loading "//js-sec.indexww.com/ht/p/184795-45553530326378.js" after 2000 ms
+JavaScript error: https://assets.bwbx.io/s3/spritz/v1.0.0/spritz.mjs, line 1: Error: ScriptInjector: Timed out loading "//js-sec.indexww.com/ht/p/184795-45553530326378.js" after 2000 ms
+JavaScript error: https://assets.bwbx.io/s3/spritz/v1.0.0/spritz.mjs, line 1: Error: ScriptInjector: Timed out loading "//js-sec.indexww.com/ht/p/184795-45553530326378.js" after 2000 ms
+JavaScript error: https://assets.bwbx.io/s3/spritz/v1.0.0/spritz.mjs, line 1: Error: ScriptInjector: Timed out loading "//js-sec.indexww.com/ht/p/184795-45553530326378.js" after 2000 ms
+JavaScript error: https://assets.bwbx.io/s3/spritz/v1.0.0/spritz.mjs, line 1: Error: ScriptInjector: Timed out loading "//js-sec.indexww.com/ht/p/184795-45553530326378.js" after 2000 ms
+JavaScript error: https://assets.bwbx.io/s3/spritz/v1.0.0/spritz.mjs, line 1: Error: ScriptInjector: Timed out loading "//js-sec.indexww.com/ht/p/184795-45553530326378.js" after 2000 ms
+JavaScript error: https://assets.bwbx.io/s3/spritz/v1.0.0/spritz.mjs, line 1: Error: ScriptInjector: Timed out loading "//js-sec.indexww.com/ht/p/184795-45553530326378.js" after 2000 ms
+1593499950960	Marionette	INFO	Stopped listening on port 63771
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1593499959284	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\WILLIA~1\\AppData\\Local\\Temp\\rust_mozprofilezArLg4"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1593499961952	Marionette	INFO	Listening on port 64045
+1593499962400	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.wsj.com/news/latest-headlines, line 115: SyntaxError: An invalid or illegal string was specified
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1593500012188	Marionette	INFO	Stopped listening on port 64045
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1593501804957	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\WILLIA~1\\AppData\\Local\\Temp\\rust_mozprofileEETcp8"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1593501807258	Marionette	INFO	Listening on port 64423
+1593501807587	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.bloomberg.com/account/user-info?callback=__jp0, line 2: SyntaxError: expected expression, got '<'
+JavaScript error: https://assets.bwbx.io/s3/fence/v4/app.bundle.js, line 28: TypeError: window.__bloomberg__.abba.some is not a function
+JavaScript error: https://assets.bwbx.io/s3/navi/js/header-3231b0fea030684aa7d0.js, line 11: Error: Timed Out waiting for event: abba:ready
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x59000D,name=PHttpChannel::Msg_DeletingChannel) Channel closing: too late to send/recv, messages will be lost
+
+1593501848244	Marionette	INFO	Stopped listening on port 64423
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1593501851972	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\WILLIA~1\\AppData\\Local\\Temp\\rust_mozprofileJlyXfX"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1593501854448	Marionette	INFO	Listening on port 64802
+1593501854595	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.wsj.com/news/latest-headlines, line 115: SyntaxError: An invalid or illegal string was specified
+1593501890189	Marionette	INFO	Stopped listening on port 64802
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1593502265352	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\WILLIA~1\\AppData\\Local\\Temp\\rust_mozprofile5DWGWD"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1593502267670	Marionette	INFO	Listening on port 65157
+1593502267975	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://assets.bwbx.io/s3/fence/v4/app.bundle.js, line 28: TypeError: window.__bloomberg__.abba.some is not a function
+JavaScript error: https://www.bloomberg.com/account/user-info?callback=__jp0, line 2: SyntaxError: expected expression, got '<'
+JavaScript error: https://assets.bwbx.io/s3/navi/js/header-3231b0fea030684aa7d0.js, line 11: Error: Timed Out waiting for event: abba:ready
+JavaScript error: https://eus.rubiconproject.com/usync.html?us_privacy=1YNY, line 12: SecurityError: The operation is insecure.
+[Child 16676, Chrome_ChildThread] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 522
+
+###!!! [Child][RunMessage] Error: Channel error: cannot send/recv
+
+1593502343708	Marionette	INFO	Stopped listening on port 65157
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1593502348603	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\WILLIA~1\\AppData\\Local\\Temp\\rust_mozprofiler9ft75"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1593502351043	Marionette	INFO	Listening on port 65512
+1593502351224	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.wsj.com/news/latest-headlines, line 115: SyntaxError: An invalid or illegal string was specified
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1593502397681	Marionette	INFO	Stopped listening on port 65512
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1593503054606	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\WILLIA~1\\AppData\\Local\\Temp\\rust_mozprofileBM0I3D"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1593503057158	Marionette	INFO	Listening on port 49434
+1593503057224	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://assets.bwbx.io/s3/navi/js/header-3231b0fea030684aa7d0.js, line 11: Error: Timed Out waiting for event: abba:ready
+JavaScript error: https://assets.bwbx.io/s3/fence/v4/app.bundle.js, line 28: TypeError: window.__bloomberg__.abba.some is not a function
+JavaScript error: https://www.bloomberg.com/account/user-info?callback=__jp0, line 2: SyntaxError: expected expression, got '<'
+JavaScript error: https://assets.bwbx.io/s3/spritz/v1.0.0/spritz.mjs, line 1: Error: ScriptInjector: Timed out loading "//js-sec.indexww.com/ht/p/184795-45553530326378.js" after 2000 ms
+JavaScript error: https://assets.bwbx.io/s3/spritz/v1.0.0/spritz.mjs, line 1: Error: ScriptInjector: Timed out loading "//js-sec.indexww.com/ht/p/184795-45553530326378.js" after 2000 ms
+JavaScript error: https://assets.bwbx.io/s3/spritz/v1.0.0/spritz.mjs, line 1: Error: ScriptInjector: Timed out loading "//js-sec.indexww.com/ht/p/184795-45553530326378.js" after 2000 ms
+JavaScript error: https://assets.bwbx.io/s3/spritz/v1.0.0/spritz.mjs, line 1: Error: ScriptInjector: Timed out loading "//js-sec.indexww.com/ht/p/184795-45553530326378.js" after 2000 ms
+JavaScript error: https://assets.bwbx.io/s3/spritz/v1.0.0/spritz.mjs, line 1: Error: ScriptInjector: Timed out loading "//js-sec.indexww.com/ht/p/184795-45553530326378.js" after 2000 ms
+JavaScript error: https://assets.bwbx.io/s3/spritz/v1.0.0/spritz.mjs, line 1: Error: ScriptInjector: Timed out loading "//js-sec.indexww.com/ht/p/184795-45553530326378.js" after 2000 ms
+JavaScript error: https://assets.bwbx.io/s3/spritz/v1.0.0/spritz.mjs, line 1: Error: ScriptInjector: Timed out loading "//js-sec.indexww.com/ht/p/184795-45553530326378.js" after 2000 ms
+1593503081806	Marionette	INFO	Stopped listening on port 49434
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1593503085941	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\WILLIA~1\\AppData\\Local\\Temp\\rust_mozprofile3joOQv"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1593503088232	Marionette	INFO	Listening on port 49709
+1593503088595	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.wsj.com/news/latest-headlines, line 115: SyntaxError: An invalid or illegal string was specified
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1593503109602	Marionette	INFO	Stopped listening on port 49709
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1593504043684	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\WILLIA~1\\AppData\\Local\\Temp\\rust_mozprofileGWTd1c"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1593504046390	Marionette	INFO	Listening on port 49933
+1593504046806	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://assets.bwbx.io/s3/navi/js/header-3231b0fea030684aa7d0.js, line 11: Error: Timed Out waiting for event: abba:ready
+JavaScript error: https://assets.bwbx.io/s3/fence/v4/app.bundle.js, line 28: TypeError: window.__bloomberg__.abba.some is not a function
+JavaScript error: https://www.bloomberg.com/account/user-info?callback=__jp0, line 2: SyntaxError: expected expression, got '<'
+JavaScript error: https://eus.rubiconproject.com/usync.html?us_privacy=1YNY, line 12: SecurityError: The operation is insecure.
+1593504230323	Marionette	INFO	Stopped listening on port 49933
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1593504235326	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\WILLIA~1\\AppData\\Local\\Temp\\rust_mozprofile9Ef39x"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1593504237579	Marionette	INFO	Listening on port 50330
+1593504237942	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.wsj.com/news/latest-headlines, line 115: SyntaxError: An invalid or illegal string was specified
+JavaScript error: resource://gre/modules/NetworkGeolocationProvider.jsm, line 555: TypeError: xhr.response.location is undefined
+JavaScript error: https://cdn.cxense.com/cx.js, line 3: TypeError: object is null
+1593504378602	Marionette	INFO	Stopped listening on port 50330
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1593546300334	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\WILLIA~1\\AppData\\Local\\Temp\\rust_mozprofilektrvgA"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1593546304291	Marionette	INFO	Listening on port 54625
+1593546304469	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.bloomberg.com/account/user-info?callback=__jp0, line 2: SyntaxError: expected expression, got '<'
+JavaScript error: https://assets.bwbx.io/s3/fence/v4/app.bundle.js, line 28: TypeError: window.__bloomberg__.abba.some is not a function
+JavaScript error: https://assets.bwbx.io/s3/navi/js/header-22cd8e1960488252059e.js, line 11: Error: Timed Out waiting for event: abba:ready
+JavaScript error: https://eus.rubiconproject.com/usync.html?us_privacy=1YNY, line 12: SecurityError: The operation is insecure.
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+1593546336897	Marionette	INFO	Stopped listening on port 54625
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+est-headlines, line 115: SyntaxError: An invalid or illegal string was specified
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+JavaScript error: https://www.wsj.com/news/latest-headlines, line 169: NS_ERROR_NOT_INITIALIZED: 
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1593546338935	Marionette	INFO	Stopped listening on port 54868
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1593561649848	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\WILLIA~1\\AppData\\Local\\Temp\\rust_mozprofilezk2xGg"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1593561652675	Marionette	INFO	Listening on port 55588
+1593561652966	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.bloomberg.com/account/user-info?callback=__jp0, line 2: SyntaxError: expected expression, got '<'
+JavaScript error: https://assets.bwbx.io/s3/fence/v4/app.bundle.js, line 28: TypeError: window.__bloomberg__.abba.some is not a function
+JavaScript error: https://assets.bwbx.io/s3/navi/js/header-22cd8e1960488252059e.js, line 11: Error: Timed Out waiting for event: abba:ready
+JavaScript error: https://eus.rubiconproject.com/usync.html?us_privacy=1YNY, line 12: SecurityError: The operation is insecure.
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x6A0029,name=PNecko::Msg_RemoveRequestContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1593561670774	Marionette	INFO	Stopped listening on port 55588
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1593561675395	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\WILLIA~1\\AppData\\Local\\Temp\\rust_mozprofile9rcHY2"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1593561677783	Marionette	INFO	Listening on port 55849
+1593561678012	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.wsj.com/news/latest-headlines, line 115: SyntaxError: An invalid or illegal string was specified
+JavaScript error: https://eus.rubiconproject.com/usync.html, line 12: SecurityError: The operation is insecure.
+1593561692892	Marionette	INFO	Stopped listening on port 55849
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1593561729402	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\WILLIA~1\\AppData\\Local\\Temp\\rust_mozprofile2pFn8r"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1593561731751	Marionette	INFO	Listening on port 56134
+1593561732019	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.bloomberg.com/account/user-info?callback=__jp0, line 2: SyntaxError: expected expression, got '<'
+JavaScript error: https://assets.bwbx.io/s3/fence/v4/app.bundle.js, line 28: TypeError: window.__bloomberg__.abba.some is not a function
+JavaScript error: https://assets.bwbx.io/s3/navi/js/header-22cd8e1960488252059e.js, line 11: Error: Timed Out waiting for event: abba:ready
+JavaScript error: https://eus.rubiconproject.com/usync.html?us_privacy=1YNY, line 12: SecurityError: The operation is insecure.
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+1593561747733	Marionette	INFO	Stopped listening on port 56134
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1593561752897	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\WILLIA~1\\AppData\\Local\\Temp\\rust_mozprofile53shcW"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1593561755194	Marionette	INFO	Listening on port 56390
+1593561755514	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.wsj.com/news/latest-headlines, line 115: SyntaxError: An invalid or illegal string was specified
+JavaScript error: https://eus.rubiconproject.com/usync.html, line 12: SecurityError: The operation is insecure.
+1593561770083	Marionette	INFO	Stopped listening on port 56390
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1593561794530	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\WILLIA~1\\AppData\\Local\\Temp\\rust_mozprofileyseD2E"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1593561796781	Marionette	INFO	Listening on port 56639
+1593561797149	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.bloomberg.com/account/user-info?callback=__jp0, line 2: SyntaxError: expected expression, got '<'
+JavaScript error: https://assets.bwbx.io/s3/fence/v4/app.bundle.js, line 28: TypeError: window.__bloomberg__.abba.some is not a function
+JavaScript error: https://assets.bwbx.io/s3/navi/js/header-22cd8e1960488252059e.js, line 11: Error: Timed Out waiting for event: abba:ready
+JavaScript error: https://eus.rubiconproject.com/usync.html?us_privacy=1YNY, line 12: SecurityError: The operation is insecure.
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+1593561809385	Marionette	INFO	Stopped listening on port 56639
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1593561813903	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\WILLIA~1\\AppData\\Local\\Temp\\rust_mozprofileOxqpGu"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1593561816415	Marionette	INFO	Listening on port 56876
+1593561816524	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.wsj.com/news/latest-headlines, line 115: SyntaxError: An invalid or illegal string was specified
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+JavaScript error: https://eus.rubiconproject.com/usync.html, line 12: SecurityError: The operation is insecure.
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+1593561830141	Marionette	INFO	Stopped listening on port 56876
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1593576308657	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\WILLIA~1\\AppData\\Local\\Temp\\rust_mozprofileBY7cZx"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1593576310994	Marionette	INFO	Listening on port 57372
+1593576311275	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.bloomberg.com/account/user-info?callback=__jp0, line 2: SyntaxError: expected expression, got '<'
+JavaScript error: https://assets.bwbx.io/s3/fence/v4/app.bundle.js, line 28: TypeError: window.__bloomberg__.abba.some is not a function
+JavaScript error: https://assets.bwbx.io/s3/navi/js/header-22cd8e1960488252059e.js, line 11: Error: Timed Out waiting for event: abba:ready
+JavaScript error: https://s0.2mdn.net/9160905/1592506521482/furniture_300x250.js, line 736: TypeError: this.ctaButton is undefined
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+1593576344888	Marionette	INFO	Stopped listening on port 57372
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1593576348650	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\WILLIA~1\\AppData\\Local\\Temp\\rust_mozprofileQSyRy6"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1593576350821	Marionette	INFO	Listening on port 57765
+1593576351272	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.wsj.com/news/latest-headlines, line 115: SyntaxError: An invalid or illegal string was specified
+JavaScript error: https://eus.rubiconproject.com/usync.html, line 12: SecurityError: The operation is insecure.
+[Child 17076, Chrome_ChildThread] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 522
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1593576367442	Marionette	INFO	Stopped listening on port 57765
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1593587513620	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\numbe\\AppData\\Local\\Temp\\rust_mozprofileS1oMEa"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1593587515678	Marionette	INFO	Listening on port 52782
+1593587515737	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://assets.bwbx.io/s3/fence/v4/app.bundle.js, line 28: TypeError: window.__bloomberg__.abba.some is not a function
+JavaScript error: https://www.bloomberg.com/account/user-info?callback=__jp0, line 2: SyntaxError: expected expression, got '<'
+JavaScript error: https://assets.bwbx.io/s3/navi/js/header-22cd8e1960488252059e.js, line 11: Error: Timed Out waiting for event: abba:ready
+JavaScript error: https://eus.rubiconproject.com/usync.html?us_privacy=1YNY, line 12: SecurityError: The operation is insecure.
+1593587524577	Marionette	INFO	Stopped listening on port 52782
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1593587528142	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\numbe\\AppData\\Local\\Temp\\rust_mozprofile9eonKC"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1593587530152	Marionette	INFO	Listening on port 53007
+1593587530177	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.wsj.com/news/latest-headlines, line 115: SyntaxError: An invalid or illegal string was specified
+JavaScript error: https://eus.rubiconproject.com/usync.html?&geo=na&co=us, line 12: SecurityError: The operation is insecure.
+JavaScript error: https://eus.rubiconproject.com/usync.html, line 12: SecurityError: The operation is insecure.
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1593587538582	Marionette	INFO	Stopped listening on port 53007
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1593628600144	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\numbe\\AppData\\Local\\Temp\\rust_mozprofile9Atbn1"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1593628603016	Marionette	INFO	Listening on port 53769
+1593628603254	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.bloomberg.com/account/user-info?callback=__jp0, line 2: SyntaxError: expected expression, got '<'
+JavaScript error: https://assets.bwbx.io/s3/fence/v4/app.bundle.js, line 28: TypeError: window.__bloomberg__.abba.some is not a function
+JavaScript error: https://assets.bwbx.io/s3/navi/js/header-22cd8e1960488252059e.js, line 11: Error: Timed Out waiting for event: abba:ready
+JavaScript error: https://eus.rubiconproject.com/usync.html?us_privacy=1YNY, line 12: SecurityError: The operation is insecure.
+1593628612725	Marionette	INFO	Stopped listening on port 53769
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1593628616198	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\numbe\\AppData\\Local\\Temp\\rust_mozprofileZuIzz9"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1593628618370	Marionette	INFO	Listening on port 53996
+1593628618808	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.wsj.com/news/latest-headlines, line 115: SyntaxError: An invalid or illegal string was specified
+JavaScript error: https://eus.rubiconproject.com/usync.html, line 12: SecurityError: The operation is insecure.
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1593628627306	Marionette	INFO	Stopped listening on port 53996
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1618202330915	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\WILLIA~1\\AppData\\Local\\Temp\\rust_mozprofileROfQe8"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1618202333835	Marionette	INFO	Listening on port 59562
+1618202334086	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://assets.bwbx.io/s3/fence/v4/app.bundle.js, line 82: TypeError: window.__bloomberg__.abba.some is not a function
+[Child 12224, Chrome_ChildThread] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 522
+[Child 12224, Chrome_ChildThread] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 522
+[Child 12224, Chrome_ChildThread] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 522
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1618202351223	Marionette	INFO	Stopped listening on port 59562
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1618202354403	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\WILLIA~1\\AppData\\Local\\Temp\\rust_mozprofilelRjetA"
+1618202398435	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\WILLIA~1\\AppData\\Local\\Temp\\rust_mozprofileA0Q6Tr"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1618202401215	Marionette	INFO	Listening on port 59830
+1618202401624	Marionette	WARN	TLS certificate errors will be ignored for this session
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+1618202430381	Marionette	INFO	Stopped listening on port 59830
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
