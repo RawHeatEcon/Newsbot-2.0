@@ -3,6 +3,7 @@
 import requests
 import urllib.request
 import time
+import re
 from bs4 import BeautifulSoup
 from datetime import datetime
 from selenium import webdriver
@@ -141,27 +142,27 @@ def display_headlines():
         for stonk in stock_list1:
             if stonk in cnn_headline.text:
                 #make a list to add the headlines, so that I can print them or add them to the csv
-                list_of_headlines.append(cnn_headline.text)
+                list_of_headlines.append(cnn_headline.text.replace(",",""))
                 print(cnn_headline.text)
     for forbes_headline in forbes_headlines:
         for stonk2 in stock_list1: 
             if stonk2 in forbes_headline.text:
-                list_of_headlines.append(forbes_headline.text)
+                list_of_headlines.append(forbes_headline.text.replace(",",""))
                 print(forbes_headline.text)
     for bloomberg_headline in bloomberg_headlines:
         for stonk3 in stock_list1: 
             if stonk3 in bloomberg_headline.text:
-                list_of_headlines.append(bloomberg_headline.text)
+                list_of_headlines.append(bloomberg_headline.text.replace(",",""))
                 print(bloomberg_headline.text)
     for MW_headline in MW_headlines:
         for stonk4 in stock_list1: 
             if stonk4 in MW_headline.text:
-                list_of_headlines.append(forbes_headline.text)
+                list_of_headlines.append(forbes_headline.text.replace(",",""))
                 print(forbes_headline.text)
     for WSJ_headline in WSJ_headlines:
         for stonk5 in stock_list1: 
             if stonk5 in WSJ_headline.text:
-                list_of_headlines.append(WSJ_headline.text)
+                list_of_headlines.append(WSJ_headline.text.replace(",",""))
                 print(WSJ_headline.text)
 
 
@@ -173,12 +174,12 @@ display_headlines()
 
 print("New:")
 print(list_of_headlines)
-
+print('\n'.join([i for i in list_of_headlines[0:]]))
 
 
 headline_logs = open('headline_logs.csv', 'w')
 headline_logs.write("HEADLINES:"+"\n")
-#headline_logs.write()
+headline_logs.write('\n'.join([i for i in list_of_headlines[0:]]))
 headline_logs.close()
 
 
