@@ -586,3 +586,579 @@ Can't find symbol 'eglSwapBuffersWithDamageEXT'.
 
 ###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
 
+1668992384156	geckodriver	INFO	Listening on 127.0.0.1:61725
+1668992387245	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "61726" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\WILLIA~1\\AppData\\Local\\Temp\\rust_mozprofileo0bXvS"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1668992390434	Marionette	INFO	Listening on port 61733
+1668992390916	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/PartitioningExceptionListService.jsm, line 69: NS_ERROR_MALFORMED_URI: Component returned failure code: 0x804b000a (NS_ERROR_MALFORMED_URI) [nsIPartitioningExceptionListObserver.onExceptionListUpdate]
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+1668992401023	Marionette	INFO	Stopped listening on port 61733
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1668992404066	geckodriver	INFO	Listening on 127.0.0.1:60677
+1668992407134	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "60678" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\WILLIA~1\\AppData\\Local\\Temp\\rust_mozprofile2myyiG"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1668992409849	Marionette	INFO	Listening on port 60683
+1668992410310	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/PartitioningExceptionListService.jsm, line 69: NS_ERROR_MALFORMED_URI: Component returned failure code: 0x804b000a (NS_ERROR_MALFORMED_URI) [nsIPartitioningExceptionListObserver.onExceptionListUpdate]
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+JavaScript error: https://web-sdk.urbanairship.com/notify/v1/ua-sdk.min.js, line 1: Error: Notification permission is denied.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1668992421277	Marionette	INFO	Stopped listening on port 60683
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1668992545160	geckodriver	INFO	Listening on 127.0.0.1:61029
+1668992548210	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "61030" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\WILLIA~1\\AppData\\Local\\Temp\\rust_mozprofileLYlrYi"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1668992551020	Marionette	INFO	Listening on port 61035
+1668992551400	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/PartitioningExceptionListService.jsm, line 69: NS_ERROR_MALFORMED_URI: Component returned failure code: 0x804b000a (NS_ERROR_MALFORMED_URI) [nsIPartitioningExceptionListObserver.onExceptionListUpdate]
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+1668992561135	Marionette	INFO	Stopped listening on port 61035
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1668992564290	geckodriver	INFO	Listening on 127.0.0.1:49491
+1668992567344	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "49492" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\WILLIA~1\\AppData\\Local\\Temp\\rust_mozprofilerhwbdG"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1668992570190	Marionette	INFO	Listening on port 49497
+1668992570541	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/PartitioningExceptionListService.jsm, line 69: NS_ERROR_MALFORMED_URI: Component returned failure code: 0x804b000a (NS_ERROR_MALFORMED_URI) [nsIPartitioningExceptionListObserver.onExceptionListUpdate]
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1668992579753	Marionette	INFO	Stopped listening on port 49497
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1668992701036	geckodriver	INFO	Listening on 127.0.0.1:49794
+1668992704097	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "49795" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\WILLIA~1\\AppData\\Local\\Temp\\rust_mozprofileNl3eML"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1668992706876	Marionette	INFO	Listening on port 49800
+1668992707289	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/PartitioningExceptionListService.jsm, line 69: NS_ERROR_MALFORMED_URI: Component returned failure code: 0x804b000a (NS_ERROR_MALFORMED_URI) [nsIPartitioningExceptionListObserver.onExceptionListUpdate]
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+1668992714966	Marionette	INFO	Stopped listening on port 49800
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1668992717903	geckodriver	INFO	Listening on 127.0.0.1:50494
+1668992720950	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "50495" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\WILLIA~1\\AppData\\Local\\Temp\\rust_mozprofileJs0S02"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1668992723877	Marionette	INFO	Listening on port 50500
+1668992724136	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/PartitioningExceptionListService.jsm, line 69: NS_ERROR_MALFORMED_URI: Component returned failure code: 0x804b000a (NS_ERROR_MALFORMED_URI) [nsIPartitioningExceptionListObserver.onExceptionListUpdate]
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1668992734367	Marionette	INFO	Stopped listening on port 50500
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1668993508737	geckodriver	INFO	Listening on 127.0.0.1:56887
+1668993511794	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "56888" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\WILLIA~1\\AppData\\Local\\Temp\\rust_mozprofileew3OQb"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1668993514694	Marionette	INFO	Listening on port 56893
+1668993514996	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/PartitioningExceptionListService.jsm, line 69: NS_ERROR_MALFORMED_URI: Component returned failure code: 0x804b000a (NS_ERROR_MALFORMED_URI) [nsIPartitioningExceptionListObserver.onExceptionListUpdate]
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+1668993522734	Marionette	INFO	Stopped listening on port 56893
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1668993525771	geckodriver	INFO	Listening on 127.0.0.1:53883
+1668993528833	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "53884" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\WILLIA~1\\AppData\\Local\\Temp\\rust_mozprofilemTND5J"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1668993531683	Marionette	INFO	Listening on port 53889
+1668993532001	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/PartitioningExceptionListService.jsm, line 69: NS_ERROR_MALFORMED_URI: Component returned failure code: 0x804b000a (NS_ERROR_MALFORMED_URI) [nsIPartitioningExceptionListObserver.onExceptionListUpdate]
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+JavaScript error: https://web-sdk.urbanairship.com/notify/v1/ua-sdk.min.js, line 1: Error: Notification permission is denied.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://www.wsj.com/news/latest-headlines, line 514: NS_ERROR_NOT_INITIALIZED: 
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1668993541394	Marionette	INFO	Stopped listening on port 53889
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1668994155499	geckodriver	INFO	Listening on 127.0.0.1:53742
+1668994158555	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "53743" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\WILLIA~1\\AppData\\Local\\Temp\\rust_mozprofileo9gde3"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1668994161257	Marionette	INFO	Listening on port 53749
+1668994161724	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/PartitioningExceptionListService.jsm, line 69: NS_ERROR_MALFORMED_URI: Component returned failure code: 0x804b000a (NS_ERROR_MALFORMED_URI) [nsIPartitioningExceptionListObserver.onExceptionListUpdate]
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+1668994169500	Marionette	INFO	Stopped listening on port 53749
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1668994172447	geckodriver	INFO	Listening on 127.0.0.1:61615
+1668994175499	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "61616" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\WILLIA~1\\AppData\\Local\\Temp\\rust_mozprofile2TJYoF"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1668994178244	Marionette	INFO	Listening on port 61621
+1668994178693	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/PartitioningExceptionListService.jsm, line 69: NS_ERROR_MALFORMED_URI: Component returned failure code: 0x804b000a (NS_ERROR_MALFORMED_URI) [nsIPartitioningExceptionListObserver.onExceptionListUpdate]
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+[Child 6764, Chrome_ChildThread] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 545
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x59000A,name=PHttpChannel::Msg_DeletingChannel) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x59000A,name=PHttpChannel::Msg_DeletingChannel) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x59000A,name=PHttpChannel::Msg_DeletingChannel) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x59000A,name=PHttpChannel::Msg_DeletingChannel) Channel closing: too late to send/recv, messages will be lost
+
+1668994189487	Marionette	INFO	Stopped listening on port 61621
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1668996163214	geckodriver	INFO	Listening on 127.0.0.1:51970
+1668996166258	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "51971" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\WILLIA~1\\AppData\\Local\\Temp\\rust_mozprofileluoZVR"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1668996169319	Marionette	INFO	Listening on port 51977
+1668996169453	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/PartitioningExceptionListService.jsm, line 69: NS_ERROR_MALFORMED_URI: Component returned failure code: 0x804b000a (NS_ERROR_MALFORMED_URI) [nsIPartitioningExceptionListObserver.onExceptionListUpdate]
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+1668996177267	Marionette	INFO	Stopped listening on port 51977
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1668996180288	geckodriver	INFO	Listening on 127.0.0.1:55079
+1668996183341	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "55080" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\WILLIA~1\\AppData\\Local\\Temp\\rust_mozprofileKfoG23"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1668996186177	Marionette	INFO	Listening on port 55089
+1668996186518	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/PartitioningExceptionListService.jsm, line 69: NS_ERROR_MALFORMED_URI: Component returned failure code: 0x804b000a (NS_ERROR_MALFORMED_URI) [nsIPartitioningExceptionListObserver.onExceptionListUpdate]
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+JavaScript error: https://web-sdk.urbanairship.com/notify/v1/ua-sdk.min.js, line 1: Error: Notification permission is denied.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://www.wsj.com/news/latest-headlines, line 514: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1668996195930	Marionette	INFO	Stopped listening on port 55089
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1668996397829	geckodriver	INFO	Listening on 127.0.0.1:55402
+1668996400888	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "55403" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\WILLIA~1\\AppData\\Local\\Temp\\rust_mozprofile5qvwOn"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1668996403682	Marionette	INFO	Listening on port 55408
+1668996404070	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/PartitioningExceptionListService.jsm, line 69: NS_ERROR_MALFORMED_URI: Component returned failure code: 0x804b000a (NS_ERROR_MALFORMED_URI) [nsIPartitioningExceptionListObserver.onExceptionListUpdate]
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+1668996411736	Marionette	INFO	Stopped listening on port 55408
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1668996414741	geckodriver	INFO	Listening on 127.0.0.1:62127
+1668996417819	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "62128" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\WILLIA~1\\AppData\\Local\\Temp\\rust_mozprofile3KDBMQ"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1668996420605	Marionette	INFO	Listening on port 62134
+1668996420987	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/PartitioningExceptionListService.jsm, line 69: NS_ERROR_MALFORMED_URI: Component returned failure code: 0x804b000a (NS_ERROR_MALFORMED_URI) [nsIPartitioningExceptionListObserver.onExceptionListUpdate]
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+JavaScript error: https://web-sdk.urbanairship.com/notify/v1/ua-sdk.min.js, line 1: Error: Notification permission is denied.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1668996431490	Marionette	INFO	Stopped listening on port 62134
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1668996626269	geckodriver	INFO	Listening on 127.0.0.1:62442
+1668996629306	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "62443" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\WILLIA~1\\AppData\\Local\\Temp\\rust_mozprofileHqP4g7"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1668996631946	Marionette	INFO	Listening on port 62448
+1668996632475	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/PartitioningExceptionListService.jsm, line 69: NS_ERROR_MALFORMED_URI: Component returned failure code: 0x804b000a (NS_ERROR_MALFORMED_URI) [nsIPartitioningExceptionListObserver.onExceptionListUpdate]
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+1668996642217	Marionette	INFO	Stopped listening on port 62448
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1668996645054	geckodriver	INFO	Listening on 127.0.0.1:57572
+1668996648122	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "57573" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\WILLIA~1\\AppData\\Local\\Temp\\rust_mozprofilefmsRU5"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1668996650905	Marionette	INFO	Listening on port 57578
+1668996651294	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/PartitioningExceptionListService.jsm, line 69: NS_ERROR_MALFORMED_URI: Component returned failure code: 0x804b000a (NS_ERROR_MALFORMED_URI) [nsIPartitioningExceptionListObserver.onExceptionListUpdate]
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+JavaScript error: https://web-sdk.urbanairship.com/notify/v1/ua-sdk.min.js, line 1: Error: Notification permission is denied.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: uncaught exception: undefined
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x59000A,name=PHttpChannel::Msg_DeletingChannel) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x380144,name=PContent::Msg_ScriptError) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x380144,name=PContent::Msg_ScriptError) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x380144,name=PContent::Msg_ScriptError) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x59000A,name=PHttpChannel::Msg_DeletingChannel) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x59000A,name=PHttpChannel::Msg_DeletingChannel) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x380144,name=PContent::Msg_ScriptError) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x59000A,name=PHttpChannel::Msg_DeletingChannel) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x380144,name=PContent::Msg_ScriptError) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x380144,name=PContent::Msg_ScriptError) Channel closing: too late to send/recv, messages will be lost
+
+1668996660663	Marionette	INFO	Stopped listening on port 57578
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1668996761477	geckodriver	INFO	Listening on 127.0.0.1:57879
+1668996764517	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "57880" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\WILLIA~1\\AppData\\Local\\Temp\\rust_mozprofilereD028"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1668996767285	Marionette	INFO	Listening on port 57886
+1668996767708	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/PartitioningExceptionListService.jsm, line 69: NS_ERROR_MALFORMED_URI: Component returned failure code: 0x804b000a (NS_ERROR_MALFORMED_URI) [nsIPartitioningExceptionListObserver.onExceptionListUpdate]
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+1668996777502	Marionette	INFO	Stopped listening on port 57886
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1668996780545	geckodriver	INFO	Listening on 127.0.0.1:50346
+1668996783594	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "50347" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\WILLIA~1\\AppData\\Local\\Temp\\rust_mozprofilebAyF5N"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1668996786438	Marionette	INFO	Listening on port 50352
+1668996786778	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/PartitioningExceptionListService.jsm, line 69: NS_ERROR_MALFORMED_URI: Component returned failure code: 0x804b000a (NS_ERROR_MALFORMED_URI) [nsIPartitioningExceptionListObserver.onExceptionListUpdate]
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+JavaScript error: https://www.wsj.com/news/latest-headlines, line 514: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1668996797343	Marionette	INFO	Stopped listening on port 50352
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1668997734704	geckodriver	INFO	Listening on 127.0.0.1:56118
+1668997737767	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "56119" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\WILLIA~1\\AppData\\Local\\Temp\\rust_mozprofileE6hScd"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1668997740534	Marionette	INFO	Listening on port 56124
+1668997740953	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/PartitioningExceptionListService.jsm, line 69: NS_ERROR_MALFORMED_URI: Component returned failure code: 0x804b000a (NS_ERROR_MALFORMED_URI) [nsIPartitioningExceptionListObserver.onExceptionListUpdate]
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+1668997751052	Marionette	INFO	Stopped listening on port 56124
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1668997753991	geckodriver	INFO	Listening on 127.0.0.1:60616
+1668997757070	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "60617" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\WILLIA~1\\AppData\\Local\\Temp\\rust_mozprofile9KoWhY"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1668997759768	Marionette	INFO	Listening on port 60622
+1668997760236	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/PartitioningExceptionListService.jsm, line 69: NS_ERROR_MALFORMED_URI: Component returned failure code: 0x804b000a (NS_ERROR_MALFORMED_URI) [nsIPartitioningExceptionListObserver.onExceptionListUpdate]
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x59000A,name=PHttpChannel::Msg_DeletingChannel) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1668997769553	Marionette	INFO	Stopped listening on port 60622
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1668998516273	geckodriver	INFO	Listening on 127.0.0.1:52603
+1668998519314	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "52604" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\WILLIA~1\\AppData\\Local\\Temp\\rust_mozprofileidWffV"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1668998521986	Marionette	INFO	Listening on port 52609
+1668998522502	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/PartitioningExceptionListService.jsm, line 69: NS_ERROR_MALFORMED_URI: Component returned failure code: 0x804b000a (NS_ERROR_MALFORMED_URI) [nsIPartitioningExceptionListObserver.onExceptionListUpdate]
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+1668998532382	Marionette	INFO	Stopped listening on port 52609
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1668998535311	geckodriver	INFO	Listening on 127.0.0.1:51109
+1668998538360	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "51110" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\WILLIA~1\\AppData\\Local\\Temp\\rust_mozprofileCbNe3J"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1668998541194	Marionette	INFO	Listening on port 51115
+1668998541566	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/PartitioningExceptionListService.jsm, line 69: NS_ERROR_MALFORMED_URI: Component returned failure code: 0x804b000a (NS_ERROR_MALFORMED_URI) [nsIPartitioningExceptionListObserver.onExceptionListUpdate]
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+JavaScript error: https://web-sdk.urbanairship.com/notify/v1/ua-sdk.min.js, line 1: Error: Notification permission is denied.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1668998552997	Marionette	INFO	Stopped listening on port 51115
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1668998810584	geckodriver	INFO	Listening on 127.0.0.1:51439
+1668998813653	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "51440" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\WILLIA~1\\AppData\\Local\\Temp\\rust_mozprofilevPTn4m"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1668998816455	Marionette	INFO	Listening on port 51446
+1668998816836	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/PartitioningExceptionListService.jsm, line 69: NS_ERROR_MALFORMED_URI: Component returned failure code: 0x804b000a (NS_ERROR_MALFORMED_URI) [nsIPartitioningExceptionListObserver.onExceptionListUpdate]
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+1668998826477	Marionette	INFO	Stopped listening on port 51446
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1668998829354	geckodriver	INFO	Listening on 127.0.0.1:56165
+1668998832401	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "56166" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\WILLIA~1\\AppData\\Local\\Temp\\rust_mozprofileKVImCL"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1668998835174	Marionette	INFO	Listening on port 56171
+1668998835577	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/PartitioningExceptionListService.jsm, line 69: NS_ERROR_MALFORMED_URI: Component returned failure code: 0x804b000a (NS_ERROR_MALFORMED_URI) [nsIPartitioningExceptionListObserver.onExceptionListUpdate]
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x380144,name=PContent::Msg_ScriptError) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x380144,name=PContent::Msg_ScriptError) Channel closing: too late to send/recv, messages will be lost
+
+1668998846629	Marionette	INFO	Stopped listening on port 56171
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1668999071528	geckodriver	INFO	Listening on 127.0.0.1:50646
+1668999074578	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "50647" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\WILLIA~1\\AppData\\Local\\Temp\\rust_mozprofilelLhjhd"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1668999077338	Marionette	INFO	Listening on port 50652
+1668999077751	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/PartitioningExceptionListService.jsm, line 69: NS_ERROR_MALFORMED_URI: Component returned failure code: 0x804b000a (NS_ERROR_MALFORMED_URI) [nsIPartitioningExceptionListObserver.onExceptionListUpdate]
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+1668999087856	Marionette	INFO	Stopped listening on port 50652
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1668999090870	geckodriver	INFO	Listening on 127.0.0.1:57992
+1668999093940	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "57993" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\WILLIA~1\\AppData\\Local\\Temp\\rust_mozprofilen03lEm"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1668999096680	Marionette	INFO	Listening on port 57998
+1668999097130	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/PartitioningExceptionListService.jsm, line 69: NS_ERROR_MALFORMED_URI: Component returned failure code: 0x804b000a (NS_ERROR_MALFORMED_URI) [nsIPartitioningExceptionListObserver.onExceptionListUpdate]
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+JavaScript error: https://web-sdk.urbanairship.com/notify/v1/ua-sdk.min.js, line 1: Error: Notification permission is denied.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1668999107699	Marionette	INFO	Stopped listening on port 57998
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1668999308134	geckodriver	INFO	Listening on 127.0.0.1:58328
+1668999311210	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "58329" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\WILLIA~1\\AppData\\Local\\Temp\\rust_mozprofilecC6D6D"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1668999313926	Marionette	INFO	Listening on port 58334
+1668999314385	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/PartitioningExceptionListService.jsm, line 69: NS_ERROR_MALFORMED_URI: Component returned failure code: 0x804b000a (NS_ERROR_MALFORMED_URI) [nsIPartitioningExceptionListObserver.onExceptionListUpdate]
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+1668999324113	Marionette	INFO	Stopped listening on port 58334
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1668999327051	geckodriver	INFO	Listening on 127.0.0.1:51500
+1668999330123	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "51501" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\WILLIA~1\\AppData\\Local\\Temp\\rust_mozprofileB8GK4u"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1668999332818	Marionette	INFO	Listening on port 51507
+1668999333305	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/PartitioningExceptionListService.jsm, line 69: NS_ERROR_MALFORMED_URI: Component returned failure code: 0x804b000a (NS_ERROR_MALFORMED_URI) [nsIPartitioningExceptionListObserver.onExceptionListUpdate]
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+JavaScript error: https://warp.media.net/rtb/resource/adperformance.js?v=35e90bcdc8, line 1: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://www.wsj.com/news/latest-headlines, line 514: NS_ERROR_NOT_INITIALIZED: 
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1668999344211	Marionette	INFO	Stopped listening on port 51507
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
