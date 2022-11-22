@@ -24,7 +24,6 @@ def scrape_logger():
         cnn_headlines = cnn_source.find_all('span', class_='cd__headline-text') 
         print("Scan complete.")
         return cnn_headlines
-
     #Forbes (Static website)
     def forbes():
         print("Scanning Forbes website...")
@@ -36,7 +35,6 @@ def scrape_logger():
         forbes_headlines = forbes_source.find_all('a', class_="happening__title")
         print("Scan complete.")
         return forbes_headlines
-
     #Bloomberg (Dynamic website)
     def bloomberg():
         print("Scanning Bloomberg website...")
@@ -61,7 +59,6 @@ def scrape_logger():
             print("ERROR: \n")
             print("Website html has changed, please update code")
         return bloomberg_headlines
-
     #MarketWatch (Dynamic website)
     def marketwatch():
         print("Scanning MarketWatch website...")
@@ -73,7 +70,6 @@ def scrape_logger():
         MW_headlines = MW_source.find_all('span', class_='headline')
         print("Scan complete.")
         return MW_headlines
-
     #WallStreetJournal (Static website)
     def wall_street_journal():
         print("Scanning Wall Street Journal website...")
@@ -106,10 +102,41 @@ def scrape_logger():
         marketwatch()
         wall_street_journal()
 
-
     global stock_list1
     stock_list1 = []
-    stock_list1.append("Tesla","Elon","Musk","Space","SpaceX","Electric","Technology","Battery","Batteries","Twitter","Power","Model Y","Model S","Star Link","Model 3","Model X","openai","AI","Science","Technology","Falcon","Moon","Rocket","Nasa","Engine","hyperloop","jet","physics","solar","solar city","solar panel","photocell")
+
+    stock_list1.append("Tesla")
+    stock_list1.append("Elon")
+    stock_list1.append("Musk")
+    stock_list1.append("Space")
+    stock_list1.append("SpaceX")
+    stock_list1.append("Electric")
+    stock_list1.append("Technology")
+    stock_list1.append("Battery")
+    stock_list1.append("Batteries")
+    stock_list1.append("Twitter")
+    stock_list1.append("Powered")
+    stock_list1.append("Model Y")
+    stock_list1.append("Model S")
+    stock_list1.append("Star Link")
+    stock_list1.append("Model 3")
+    stock_list1.append("Model X")
+    stock_list1.append("openai")
+    stock_list1.append("AI")
+    stock_list1.append("Science")
+    stock_list1.append("Technology")
+    stock_list1.append("Falcon")
+    stock_list1.append("Moon")
+    stock_list1.append("Rocket")
+    stock_list1.append("Nasa")
+    stock_list1.append("Engine")
+    stock_list1.append("hyperloop")
+    stock_list1.append("jet")
+    stock_list1.append("physics")
+    stock_list1.append("solar")
+    stock_list1.append("solar city")
+    stock_list1.append("solar panel")
+    stock_list1.append("photocell")
 
     scanning()
 
@@ -145,7 +172,7 @@ def scrape_logger():
                 if stonk5 in WSJ_headline.text:
                     list_of_headlines.append(WSJ_headline.text.replace(",","")+" "+","+date_time)
                     print(WSJ_headline.text)
-
+    display_headlines()
     with open('headline_logs.csv', 'a') as f_object:
         writer_object = writer(f_object)
         for i in list_of_headlines[0:]:
