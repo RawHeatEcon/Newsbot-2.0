@@ -193,12 +193,42 @@ def scrape_logger():
 
 
 
-try:
-    while True:
-        scrape_logger()
-        time.sleep(240)
-except KeyboardInterrupt:
-    pass
+
+scrape_logger()
+time.sleep(240)
+scrape_logger()
+time.sleep(240)
+scrape_logger()
+time.sleep(240)
+scrape_logger()
+time.sleep(240)
+scrape_logger()
+time.sleep(240)
+scrape_logger()
+time.sleep(240)
+scrape_logger()
+time.sleep(240)
+scrape_logger()
+time.sleep(240)
+scrape_logger()
+time.sleep(240)
+scrape_logger()
+time.sleep(240)
+scrape_logger()
+time.sleep(240)
+scrape_logger()
+time.sleep(240)
+
+
+
+
+
+#try:
+#    while True:
+#        scrape_logger()
+#        time.sleep(240)
+#except KeyboardInterrupt:
+#    pass
 #Adding sleep delay to prevent being IP blocked for too many https requests
 
 
