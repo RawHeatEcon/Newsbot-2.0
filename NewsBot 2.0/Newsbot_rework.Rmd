@@ -1,0 +1,629 @@
+---
+title: 'Newsbot_rework'
+author: "Rohit Kumar"
+date: "12/07/2022"
+output:
+  pdf_document:
+    toc: yes
+    toc_depth: '6'
+  html_document:
+    toc: yes
+    toc_depth: 6
+    number_sections: no
+toc-title: Table of Contents
+bibliography: references.bib
+---
+
+> <u>**Introduction**</u>
+
+# Breaking News Headlines Manipulating Stock Prices
+
+When a spicy news headline hits the big financial news networks, more eyes are consuming this content than our own. Deep in the basements of wall street, there are high-speed trading firms with algorithms that not only keep track of the buzz but are making split-second decisions based on these headlines at every moment in time. The question, however, is are these headlines and subsequent trades actually impact the stock market as we know it. Using a rudimentary web scraper to collect breaking news headlines in the financial world, I will attempt to prove that there is a relationship between headlines and stock prices. I will be looking at a popular company that frequents social media and the internet, Elon Musk's Tesla company otherwise known as TSLA on the New York stock exchange(NYSE).
+
+
+
+Data info
+
+
+Importing data
+
+
+Cleaning data
+
+
+Visualizing data
+
+
+Establishing correlation and directionality of data
+
+
+Building model
+
+
+
+
+Fitting Line of regression
+
+
+Validity
+
+
+Conclusion
+
+
+
+
+
+The new decade has begun with a very rocky start with the US and Iran almost at the brink of war, Australian Bushfires, East African Locust swarms, earthquakes, devastating floods upon other things, but the COVID-19 Pandemic is slowly descending upon humanity as the deadliest event yet. In the following analysis, I make sense of how the daily death due to COVID-19 compares to the individual states' quickness of lockdown, population size by state, and distance of case from the first 5 cases in the USA amongst other variables.
+
+In order to help aid in predicting the spread of this virus and just analyzing the previous path of the virus I will be using data collected by the John Hopkins Center for Systems Science and Engineering.
+The data is being further sourced from WHO, CDC, ECDC, NHC, DXY, 1point3acres, Worldometers.info, BNO, the COVID Tracking Project (testing and hospitalizations), state and national government health departments, and local media reports.
+The data set was found on
+[Kaggle](https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data/csse_covid_19_time_series). Alongside this data set, a new data set was created by compiling numerous statistics specific to each US state. These statistics were curated via multiple government websites, after thorough research into possible connections between the US states and the spread of Covid-19. First we will look at the basic summary statistics to show light on the general picture of what we are working with and then moving on to more robust analysis via regression analysis. 
+
+This pandemic is one of the most important events happening right now and the way we react and approach it will affect our lives forever. Understanding it bit by bit will at least somewhat help us in making the decisions to combat COVID-19, which is very important to our survival on this planet.
+
+
+<br>
+
+
+```{r setup, warning = FALSE, message = FALSE, include = FALSE}
+
+knitr::opts_chunk$set(echo = TRUE)
+require("knitr")
+
+opts_knit$set(root.dir = "C:/Users/William Roche/Downloads/School/MSDA/13 STAT 6382/P2/Data/COVID-19-master/COVID-19-master/csse_covid_19_data/csse_covid_19_daily_reports_us")
+
+#C:\Users\William Roche\Downloads\School\MSDA\13 STAT 6382\P2\Data\COVID-19-master\COVID-19-master\csse_covid_19_data\csse_covid_19_daily_reports_us
+
+# Setting working directory for the project
+
+
+library(broom)
+library(tidyverse)
+library(car)
+library(olsrr)
+library(MPV)
+library(cvTools)
+library(mctest)
+library(dplyr)
+# Loading all necessary libraries
+
+
+```
+
+
+<br>
+
+# Libraries
+
+The following libraries were used in the analysis:
+
+*dplyr, broom, tidyverse, olsrr, MPV, car, cvTools, MASS, bestNormalize, rcompanion, kader, sigmoid & mctest*
+
+```{r, include = FALSE, warning = FALSE, message = FALSE}
+
+# Installing packages required
+
+
+library(broom)
+library(tidyverse)
+library(olsrr)
+library(MPV)
+library(car)
+library(cvTools)
+library(mctest)
+library(dplyr)
+
+```
+
+# Initial Data Loading & Transforming
+
+The Covid-19 Confirmed-Deaths-Recovered statistics for the entire world were loaded and simplified to the area of concern. The data consists of tables of daily statistcs from 1-22-2020 to 4-09-2020 for the entire world. The USA was isolated from the world, and the data was joined together which then showed an exponential increase in cases from the 3 month time period. Next, the variables were isolated for a singular date and then combined with state specific statistics in order to pinpoint a trend in the CDR ratio of the virus. After all tables were joined, the variable names were all simplified to; y, x1, x2, etc, for clean model building. As a final step before any analysis, all regressors are converted from integer class to numeric, in an attempt to preserve details since we are dealing with big numbers (US population).
+
+
+
+```{r, include = FALSE, warning = FALSE, message = FALSE}
+
+# Loading Data + Cleaning
+
+jan22 <- read.csv("01-22-2020.csv")
+
+#This step was done to each dataset for the timeframe, but is hidden in order to conserve space
+
+
+```
+
+
+
+```{r, include = FALSE, warning = FALSE, message = FALSE}
+
+
+```
+
+
+
+```{r, include = FALSE, warning = FALSE, message = FALSE}
+
+
+
+```
+
+
+
+```{r, include = FALSE, warning = FALSE, message = FALSE}
+
+```
+
+
+
+```{r, include = FALSE, warning = FALSE, message = FALSE}
+
+#**Ommiting `NA` rows & replacing them with `0`**
+#We choose to omit rows with `NA` values in order to make calculations error-free and set them to 0.
+
+Covid19_data[c("Confirmed", "Deaths", "Recovered")][is.na(Covid19_data[c("Confirmed", "Deaths", "Recovered")])] <- 0
+
+#summary(Covid19_data)
+
+
+```
+
+
+
+```{r, include = FALSE, warning = FALSE, message = FALSE}
+
+# Changing `Last_Update` column from character class to date.
+
+Covid19_data$Date <- as.Date.character(Covid19_data$Last.Update, "%m/%d/%Y")
+
+```
+
+
+
+```{r, include = FALSE, warning = FALSE, message = FALSE}
+
+```
+
+
+
+```{r, include = FALSE, warning = FALSE, message = FALSE}
+
+```
+
+
+
+```{r, include = FALSE, warning = FALSE, message = FALSE}
+
+```
+
+
+
+```{r, include = FALSE, warning = FALSE, message = FALSE}
+
+```
+
+
+
+```{r, echo = FALSE, warning = FALSE, message = FALSE}
+
+base_model <- bind_cols(regressors, Covid19_US_State_data)
+
+base_model$State <- NULL
+
+base_model <- base_model %>%
+  rename("x1" = RAIN , "x2" = POP, "x3" = POP.DENSITY, "x4" = AGE, "x5" = DAYS, "x6" = BUDGET, "y" = Deaths_Daily, "x7" = Confirmed_Daily, "x8" = RAIN_GROUPED, "x9" = DISTANCE, "x10" = AIRPORT, "x11" = ELDER, "x12" = INFANT, "x15" = HAS_BEACH, "x16" = PARKS, "x17" = TRAFFIC, "x18" = RH, "x19" = DEW, "x20" = POV, "x21" = EMP, "x22" = INCOME, "x23" =  DISABLE, "x24" = UNINSURED)
+
+base_model$Date <- NULL
+base_model$Country.Region <- NULL
+
+
+base_model <- base_model %>%
+  dplyr::select(Province.State, y, x1, x2, x3, x4, x5, x6, x7, x8, x9, x10, x11, x12, x15, x16, x17, x18, x19, x20, x21, x22, x23, x24)
+
+base_model$x2 <- as.numeric(base_model$x2)
+base_model$x3 <- as.numeric(base_model$x3)
+base_model$x5 <- as.numeric(base_model$x5)
+base_model$x11 <- as.numeric(base_model$x11)
+base_model$x12 <- as.numeric(base_model$x12)
+base_model$x11.1 <- NULL
+base_model$x12.2 <- NULL
+
+
+```
+
+
+
+```{r, warning = FALSE, message = FALSE, include = FALSE}
+
+```
+<br>
+
+
+```{r, warning = FALSE, message = FALSE, include = FALSE}
+
+```
+
+
+
+```{r, include = FALSE, warning = FALSE, message = FALSE}
+Covid19_data <- Covid19_data %>% 
+  group_by(Country.Region, Date) %>% 
+  mutate(Recovered_Daily = sum(Recovered))
+
+
+Covid19_USdata <- Covid19_data %>%
+  filter(Country.Region   %in% c("US")) %>%
+  dplyr::select(Province.State, Country.Region, Date, Confirmed_Daily, Deaths_Daily, Recovered_Daily)
+
+
+#ggplot(Covid19_USdata, aes(x = Date, y = Confirmed_Daily) ) + geom_point() + geom_smooth(type = lm, se=T, ) + labs(title = "USA Covid19 Confirmed cases", subtitle = "March 31, 2020", y = "Cases Confirmed", x = "Last update")
+
+
+```
+<br>
+
+
+```{r, message = FALSE, warning = FALSE, echo = FALSE, fig.height = 4, fig.width = 6}
+
+ggplot(Covid19_USdata, aes(x = Date, y = Confirmed_Daily) ) + geom_point() + geom_smooth(type = lm, se = T, ) + labs(title = "USA Covid-19 Confirmed cases", subtitle = "January 22, 2020 - April 9, 2020", y = "Cases Confirmed", x = "Date")
+
+
+```
+*Initial data loading shows an exponential trend between the confirmed cases as time progressed from January 22, 2020 until April 9, 2020. As a preface this exponential growth may have influence over the model.*
+
+
+<br>
+
+
+## Data loading and manipulation
+
+We load our base data and organize it into the United States and then each state. Next we joined another data table containing multiple variables we researched and compiled.
+All of the variables are changed to numeric class except for the Province_State character class in order to identify specific states. After all data is joined and correctly formatted, each column is renamed to x1, x2,...xn.
+
+
+
+# Regressors and thier respective coefficients
+
+Intercept = 94.030
+
+**x1** = -4.098 = Average precipitation per year
+
+**x2** = 1.072e-06 = Population
+
+**x3** = -0.118 = Population density (p/mi^2 | person per square mile)
+
+**x4** = 26.370 = Average age of resident
+
+**x5** = -2.896 = Number of days between first US case and lockdown/shelter-in-place order
+
+**x6** = -1.442 = State Expenditures for the 2018 fiscal year
+
+**x7** = -0.029 = Confirmed COVID-19 cases daily
+
+**x8** = 2.248 = Rainfall grouped by ranges: 1"-10", 11"-20", 21"-30", 31"-40", 41"-50", 51"-60" 
+
+**x9** = -0.024 = Distance from capital to the closest of the 5 states with the first case
+
+**x10** = 7.052 = If the state have an airport
+
+**x11** = -43.460 = Elder population 65 >= %
+
+**x12** = -16.380 = Infant population 5 <= %
+
+**x15** = 12.950 = If the state has a beach
+
+**x16** = 0.303 = Number of state parks
+
+**x17** = -5.350e-07 = Airport Traffic
+
+**x18** = 0.737 = Relative humidity
+
+**x19** = 5.016  = Average Dew point
+
+**x20** = 11.360  = Poverty percentage
+
+**x21** = -2.447 = Employment percentage
+
+**x22** = 6.132e-05 = Median houshold income
+
+**x23** = -6.627 = Disability percentage
+
+**x24** = -9.218 = Uninsured percentage (Health)
+
+**x25** = 1.966e-06 = deaths/cases
+
+
+
+```{r, echo = FALSE, warning = FALSE, message = FALSE}
+
+```
+<br>
+
+
+
+# Base multiple regression model
+
+```{r, echo = FALSE, message = FALSE, warning = FALSE}
+
+model1 <- lm(y~x1 +x2 +x3 +x4 +x5 +x6 +x7 +x8 +x9 +x10 +x11 +x12 +x15 +x16 +x17 +x18 
+             +x19 +x20 +x21 +x22 +x23 +x24 +x25, base_model)
+
+summary(model1)
+
+
+```
+
+**Our fitted multiple regression model is:**
+
+
+y_hat = 94.030 - (4.098)x1 + (0)x2 - (0.118)x3 + (26.370)x4 - (2.896)x5 - (1.442)x6 - (0.029)x7 + (2.248)x8 - (0.024)x9 + (7.052)x10 - (43.460)x11 - (16.380)x12 + (12.950)x15 + (0.303)x16 + (0)x17 + (0.737)x18 + (5.016)x19 + (11.360)x20 - (2.447)x21 + (0)x22 - (6.627)x23 - (9.218)x24 + (0)x25
+
+
+<br>
+
+## Residual analysis
+
+```{r, warning = FALSE, message = FALSE, echo = FALSE, fig1, fig.height = 3, fig.width = 3}
+
+qqnorm(model1$residuals)
+qqline(model1$residuals)
+
+plot(model1$fit, model1$residuals)
+abline(h=0,col='red')
+
+
+```
+
+The residuals vs fitted plot shows us that the residuals are relatively normally scattered, although they bunch towards 0 which indicates a transformation is necessary. The Normal Q-Q plot shows that the quantiles are normal towards the center but have an outlier near the right tail. This model could be adequate with a transformation, but further analysis is needed to be more certain.
+
+
+# Is the regression significant? 
+
+
+**Our Null and Alternative Hypothesis:**
+
+**H0 :** B1 = B2 = B3 = B4 = B5 = B5 = B6 = B7 = B8 = B9 = B10 = B12 = B13 = B14 = B15 = B16 = B17 = B18 = B19 = B20 = B21 = B22 = B23 = B24 = B25 = 0
+
+**HA :** At least one slope coefficient is not = 0
+
+From the summary statistics of our multiple linear regression found earlier, we can see that with a p-value of 2.2e-16, nearly zero, we can reject the null hypothesis and conclude that at least one slope coefficient is not equal to zero, which means that the regression model is in fact significant.
+
+
+
+# Variance inflation factors
+
+```{r, echo = FALSE, warning = FALSE, message = FALSE}
+
+vif(model1)
+
+
+```
+
+From the variance inflation factors we can see that variables x2, x4, x6, x7 and x11 exhibit extreme values indicating very high correlation. Also, variables x1, x8, x12, x17, x19, x20, x21, x22, x23, x25 show signs of moderate to high correlation.
+
+
+
+# Correlation between variables
+
+```{r, echo = FALSE, warning = FALSE, message = FALSE}
+
+#cor(base_model[3:27])
+cor(base_model[9],base_model[27])
+cor(base_model[25],base_model[26])
+cor(base_model[4],base_model[8])
+
+
+```
+
+From our correlation table we can see that the 9th & 27th variables or x7 & x25, x13 & x14, & 2nd & 8th variables x2 & x6 are the most correlated amogst themselves. Plotting these variables against each other further proves a relationship is present.
+
+
+
+# Plotting correlated variables
+
+```{r, warning = FALSE, message = FALSE, echo = FALSE, fig.height = 3, fig.width = 3}
+
+plot(base_model[,3], base_model[,27], main = "Confirmed vs Deaths/Confirmed", sub = "correlation = 0.9499125", xlab = "Confirmed Cases", ylab = "Deaths/Confirmed Cases",
+      line = NA, outer = FALSE)
+
+
+```
+
+
+
+```{r, warning = FALSE, message = FALSE, echo = FALSE, fig.height = 3, fig.width = 3}
+
+plot(base_model[,25],base_model[,26], main = "Elder Population vs Infant Population", sub = "correlation = 0.9558531", xlab = "Elder population", ylab = "Infant population",
+      line = NA, outer = FALSE)
+
+
+```
+
+
+
+```{r, warning = FALSE, message = FALSE, echo = FALSE, fig.height = 3, fig.width = 3}
+
+plot(base_model[,4],base_model[,8], main = "State Expenditure vs Total Population", sub = "correlation = 0.9398963", xlab = "Total population", ylab = "State Expenditure (billions)",
+      line = NA, outer = FALSE)
+
+
+```
+
+
+
+# Eigen System Analysis
+
+```{r, warning = FALSE, message = FALSE, echo = FALSE, fig.height = 5, fig.width = 5}
+stdx=scale(base_model[,2:27])  
+exx= eigen( t(stdx)%*%stdx) 
+#exx 
+max(exx$values)/min(exx$values)
+```
+
+The analysis of the eigensystem above shows us that, with a k value of ~133,174.1, the spread of the eigen values indicates moderate to strong multicollinearity.
+
+After thorough analysis, multicollinearity exists in the current regression model, with regressors x7 & x25, x13 & x14, & x2 & x6 showing high correlation.
+
+
+# Transformations
+
+We choose to drop variables x2(Population), x17(Airport Traffic), x22(Average Household Income), x25(Deaths/Confirmed cases) since they are near zero, before making transformations to the model in order to combat multicollinearity.
+
+
+
+```{r, warning = FALSE, message = FALSE, echo = FALSE, fig.height = 3, fig.width = 3}
+
+model_3 <- lm(sqrt(y)~x1 +x2 +x3 +x4 +x5 +x6 +x7 +x8 +x9 +x10 +x13 +x14 +x15 
+              +x16 +x17 +x18 +x19 +x20 +x21 +x22 +x23 +x24 +x25, base_model)
+
+#plot(model_3$fit, model1$residuals)
+#abline(h=0,col='red')
+
+plot(model_3$fit, model_3$residuals)
+abline(h=0,col='red')
+
+# Square root is better, but still not optimal
+
+
+```
+<br>
+
+
+# **Model without Transformations:**
+
+```{r, warning = FALSE, message = FALSE, echo = FALSE, fig.height = 3, fig.width = 3}
+
+model_4 <- lm(y~x1 +x3 +x4 +x5 +x6 +x7 +x8 +x9 +x10 +x13 +x14 +x15 +x16 
+              +x18 +x19 +x20 +x21 +x23 +x24, base_model)
+
+plot(model_4$fit, model1$residuals)
+abline(h=0,col='red')
+
+
+```
+
+*Model without near zero coefficient regressors, no other transformations applied.*
+
+
+
+```{r, warning = FALSE, message = FALSE, echo = FALSE, fig.height = 5, fig.width = 5}
+library(MASS)
+library(bestNormalize)
+#yeojohnson(y, eps = 0.001, standardize = TRUE)
+
+
+```
+
+
+
+```{r, include = FALSE, warning = FALSE, message = FALSE}
+
+library(rcompanion)
+new_y <- transformTukey(base_model$y)
+
+model_63 <- lm(new_y~x1 +x3 +x4 +x5 +x6 +x7 +x8 +x9 +x10 +x11 +x12 +x15 
+               +x16 +x18 +x19 +x20 +x21 +x23 +x24, base_model)
+
+plot(model_63)
+
+
+```
+
+
+
+```{r, echo = FALSE, warning = FALSE, message = FALSE}
+
+plot(model_63$fit, model_63$residuals)
+abline(h=0,col='red')
+
+
+```
+
+
+*Using the transformTukey function, which performs iterative Shapiro–Wilk tests to find the lambda value that maximizes the W statistic from those tests. We can see a considerably better fit compared to the model without any transformations.*
+
+## Transformed Model with new Y 
+
+
+```{r, warning = FALSE, message = FALSE, echo = FALSE, fig.height = 2.5, fig.width = 2.5}
+
+model_64 <- lm(new_y~x1 +x2 +x3 +x4 +x5 +x7 +x9 +x11 +x12 +x15 +x16 
+               +x17 +x19 +x20 +x24, base_model)
+
+plot(model_64)
+
+
+```
+
+*Observation 32 is for New York which is a crucial influencial point, which is beyond Cook's ideal distance in the leverage plot.*
+
+# Choosing best possible model
+
+
+```{r, warning = FALSE, message = FALSE, echo = FALSE}
+
+k <- ols_step_all_possible(model_64)
+#plot(k)
+
+```
+
+
+
+We filter all possible models for high R squared values as well as lowest Mallow's CP value. The high R squared value represents the proportion of the variance that is explained by our model. The lower value for Mallow's CP shows how much error is left unexplained. With a higher R squared value coupled with the lowest CP value we have come up with the best possible model as follows.
+```{r, echo = FALSE, warning = FALSE, message = FALSE}
+#str(k)
+bestmodel <- k%>%
+  filter(rsquare >= 0.5) %>%
+  filter(cp <= 5) %>%
+  arrange(cp) %>%
+  head(1)
+
+bestmodel
+#summary(k)
+```
+
+
+
+```{r, warning = FALSE, message = FALSE, echo = FALSE, fig.height = 5, fig.width = 5}
+
+summary(lm(new_y ~ x5 + x7 +x9+x11+x15+x19, base_model))
+
+
+```
+
+# Best Model
+
+y_hat = 3.606 - 0.02191(Lockdown quickness) + 0.00001866(Confirmed cases) - 0.0005861(Distance to nearest major epicenter) - 0.08446(Elder population percentage) + 0.2377(State has a beach) + 0.0308(Average dew point)
+
+**The Coefficients can be scaled, they are low due to the shear size of the populations in this analysis.**
+
+<br>
+
+
+# Final Remarks
+
+As our analysis comes to a close, we can see that there is merit to our hypothesis noted at the beginning of the report. There is in fact a significant relationship between quickness of lockdown, population size by state, and distance of case from the first 5 cases in the USA. Also, the elder population above 65 years of age tend to not be affected more adversely. This could be due to the fact that retirement homes and elderly care facilities reacted with caution after initial widespread cases in the elderly population. Lockdown quickness and the distance to the nearest major epicenter relatively had positive effects on the total number of deaths from the virus. This could be attributed to the vast spread of the virus from the start, which could have further caused some error in measurement. The presence of a beach has negative consequences as found by the report. Since beaches are large scale areas where mass amounts of people gather in close distances, the virus spreads easily. States that have beaches are more susceptible to more deaths according to the analysis. Additionally, a higher dew point has a positive relationship with the number of deaths due to COVID-19. The regressor shows that the virus either thrives in or is causing increased deaths in higher dew points. We used dew points in our analysis in lieu of average temperature because dew points are more reliable. The finding is quite interesting and may lead to further research on how the COVID-19 virus reacts to temperature differences.
+
+
+<br>
+
+\newpage
+
+# References
+
+https://rcompanion.org/handbook/I_12.html
+
+https://cran.r-project.org/web/packages/sigmoid/sigmoid.pdf
+
+https://cran.r-project.org/web/packages/kader/kader.pdf
+
+https://www.rdocumentation.org/packages/olsrr/versions/0.5.3/topics/ols_step_all_possible
+
+
+
+
+
+
+
+
