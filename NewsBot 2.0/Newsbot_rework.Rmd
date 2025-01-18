@@ -1,7 +1,7 @@
 ---
 title: 'Newsbot_rework'
 author: "Rohit Kumar"
-date: "12/07/2022"
+date: "12/13/2022"
 output:
   pdf_document:
     toc: yes
@@ -11,58 +11,251 @@ output:
     toc_depth: 6
     number_sections: no
 toc-title: Table of Contents
-bibliography: references.bib
 ---
 
-> <u>**Introduction**</u>
+> <u>**P2**</u>
 
-# Breaking News Headlines Manipulating Stock Prices
+# Purpose
 
-When a spicy news headline hits the big financial news networks, more eyes are consuming this content than our own. Deep in the basements of wall street, there are high-speed trading firms with algorithms that not only keep track of the buzz but are making split-second decisions based on these headlines at every moment in time. The question, however, is are these headlines and subsequent trades actually impact the stock market as we know it. Using a rudimentary web scraper to collect breaking news headlines in the financial world, I will attempt to prove that there is a relationship between headlines and stock prices. I will be looking at a popular company that frequents social media and the internet, Elon Musk's Tesla company otherwise known as TSLA on the New York stock exchange(NYSE).
-
-
-
-Data info
+## Background
 
 
-Importing data
+### High-Frequency trading 
+
+High-Frequency trading or HFT firms make millions of stock trades per second making very little in marginal profits. These small profits become massive taking into consideration that 
+there are millions of these trades happening at once. Using many forms of statistical arbitrage in the market, these firms can buy commodities in one market at a cheaper price and sell them in another at a higher price. The key to finding these opportunities is honing in on key indicators that can help a trader predict the direction of the commodity. In the financial market there are many things that can impact a stocks price. For example, fluctuating interest rates, worldwide conflicts, other markets, cryptocurrency and the how we interact with our world all impact each other at the end of the day.
+
+### Breaking News Headlines Manipulating Stock Prices
+
+In the age of technology when a spicy news headline hits the big financial news networks, more eyes are consuming this content than our own. Deep in the basements of wall street, there are high-speed trading firms with algorithms that not only keep track of the buzz but are making split-second decisions based on these headlines at every moment in time. The question, however, is are these headlines and subsequent trades actually impact the stock market as we know it. Using a rudimentary web scraper to collect breaking news headlines in the financial world, I will attempt to prove that there is a relationship between headlines and stock prices. I will be looking at a popular company that frequents social media and the internet, Elon Musk's Tesla company otherwise known as TSLA on the New York stock exchange(NYSE). 
 
 
-Cleaning data
+# Data Acquisition
+
+Tesla, aka Tesla (TSLA) on the NASDAQ, is an American multinational automotive and clean energy company headquartered in Austin, Texas. The company designs and manufactures electric vehicles, battery energy storage from home to grid-scale, solar panels and solar roof tiles, and related products and services. Due to the eccentric CEO Elon Musk TSLA reliably frequents sensational news headlines throughout the web. This makes the stock quite volatile as the price fluctuates rapidly. In order to capture these headlines I have written the python script below that captures headline data using *Microsoft Visual Studio*.
 
 
-Visualizing data
-
-
-Establishing correlation and directionality of data
-
-
-Building model
-
-
-
-
-Fitting Line of regression
-
-
-Validity
-
-
-Conclusion
-
+## News_Bot2.0 Headline Crawler
+\scriptsize
+```{python, eval=FALSE,warning = FALSE, message = FALSE,error=FALSE}
+import requests
+import urllib.request
+import time
+import re
+from bs4 import BeautifulSoup
+from datetime import datetime
+from selenium import webdriver
+from pynput.keyboard import Key, Controller
+from csv import writer
 
 
 
+def scrape_logger():
+    #CNN (Static website)
+    def cnn():
+        #print("Scanning CNN website...")
+        cnn_URL = 'https://www.cnn.com/business'
+        cnn_page = requests.get(cnn_URL)
+        cnn_raw_code = cnn_page.content
+        cnn_source = BeautifulSoup(cnn_raw_code, "html.parser")
+        global cnn_headlines
+        cnn_headlines = cnn_source.find_all('span', class_='cd__headline-text') 
+        #print("Scan complete.")
+        return cnn_headlines
+    #Forbes (Static website)
+    def forbes():
+        #print("Scanning Forbes website...")
+        forbes_URL = 'https://www.forbes.com/'
+        forbes_page = requests.get(forbes_URL)
+        forbes_raw_code = forbes_page.content
+        forbes_source = BeautifulSoup(forbes_raw_code, "html.parser")
+        global forbes_headlines
+        forbes_headlines = forbes_source.find_all('a', class_="happening__title")
+        #print("Scan complete.")
+        return forbes_headlines
+    #Bloomberg (Dynamic website)
+    def bloomberg():
+        #print("Scanning Bloomberg website...")
+        bloomberg_URL = 'https://www.bloomberg.com/markets/watchlist'
+        bloomberg_page = webdriver.Firefox()
+        bloomberg_page.get(bloomberg_URL)
+        time.sleep(5) # wait 5 seconds for the page to load the js
+        bloomberg_raw_code = bloomberg_page.execute_script("return document.documentElement.outerHTML")
+        type = Controller()
+        type.press(Key.alt)
+        type.press(Key.space)
+        type.press('c')
+        type.release(Key.alt)
+        type.release(Key.space)
+        type.release('c') 
+        #time.sleep(5)
+        bloomberg_source = BeautifulSoup(bloomberg_raw_code, "html.parser")
+        global bloomberg_headlines
+        bloomberg_headlines = bloomberg_source.find_all('a', class_="headline__55bd5397")    
+        #print("Scan complete.")
+        if bloomberg_headlines == ():
+            print("ERROR: \n")
+            print("Website html has changed, please update code")
+        return bloomberg_headlines
+    #MarketWatch (Dynamic website)
+    def marketwatch():
+        #print("Scanning MarketWatch website...")
+        MW_URL = 'https://www.marketwatch.com/'
+        MW_page = requests.get(MW_URL)
+        MW_raw_code = MW_page.content
+        MW_source = BeautifulSoup(MW_raw_code, "html.parser")
+        global MW_headlines
+        MW_headlines = MW_source.find_all('span', class_='headline')
+        #print("Scan complete.")
+        return MW_headlines
+    #WallStreetJournal (Static website)
+    def wall_street_journal():
+        #print("Scanning Wall Street Journal website...")
+        WSJ_URL = 'https://www.wsj.com/news/latest-headlines'
+        WSJ_page = webdriver.Firefox()
+        WSJ_page.get(WSJ_URL)
+        time.sleep(5)
+        WSJ_raw_code = WSJ_page.execute_script("return document.documentElement.outerHTML")
+        type2 = Controller()
+        type2.press(Key.alt)
+        type2.press(Key.space)
+        type2.press('c')
+        type2.release(Key.alt)
+        type2.release(Key.space)
+        type2.release('c')
+        #time.sleep(5)
+        WSJ_source = BeautifulSoup(WSJ_raw_code, "html.parser")
+        global WSJ_headlines
+        WSJ_headlines = WSJ_source.find_all('div', class_='WSJTheme--headline--7VCzo7Ay')
+        #print("Scan complete.")
+        if WSJ_headlines == ():
+            print("ERROR: \n")
+            print("Website html has changed, please update code")
+        return WSJ_headlines
 
-The new decade has begun with a very rocky start with the US and Iran almost at the brink of war, Australian Bushfires, East African Locust swarms, earthquakes, devastating floods upon other things, but the COVID-19 Pandemic is slowly descending upon humanity as the deadliest event yet. In the following analysis, I make sense of how the daily death due to COVID-19 compares to the individual states' quickness of lockdown, population size by state, and distance of case from the first 5 cases in the USA amongst other variables.
+    def tsla():
+        #print("Scanning tsla stock price...")
+        tsla_URL = 'https://www.cnbc.com/quotes/TSLA'
+        tsla_page = requests.get(tsla_URL)
+        tsla_raw_code = tsla_page.content
+        tsla_source = BeautifulSoup(tsla_raw_code, "html.parser")
+        global tsla_price
+        tsla_price = tsla_source.find('span', class_='QuoteStrip-lastPrice') 
+        #print("Scan complete.")
+        #print(tsla_price.text)
+        return tsla_price
 
-In order to help aid in predicting the spread of this virus and just analyzing the previous path of the virus I will be using data collected by the John Hopkins Center for Systems Science and Engineering.
-The data is being further sourced from WHO, CDC, ECDC, NHC, DXY, 1point3acres, Worldometers.info, BNO, the COVID Tracking Project (testing and hospitalizations), state and national government health departments, and local media reports.
-The data set was found on
-[Kaggle](https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data/csse_covid_19_time_series). Alongside this data set, a new data set was created by compiling numerous statistics specific to each US state. These statistics were curated via multiple government websites, after thorough research into possible connections between the US states and the spread of Covid-19. First we will look at the basic summary statistics to show light on the general picture of what we are working with and then moving on to more robust analysis via regression analysis. 
+    def scanning():
+        cnn()
+        forbes()
+        bloomberg()
+        marketwatch()
+        wall_street_journal()
+        tsla()
 
-This pandemic is one of the most important events happening right now and the way we react and approach it will affect our lives forever. Understanding it bit by bit will at least somewhat help us in making the decisions to combat COVID-19, which is very important to our survival on this planet.
+    global stock_list1
+    stock_list1 = []
+    stock_list1.append("Tesla")
+    stock_list1.append("Elon")
+    stock_list1.append("Musk")
+    stock_list1.append("Space")
+    stock_list1.append("SpaceX")
+    stock_list1.append("Electric")
+    stock_list1.append("Technology")
+    stock_list1.append("Battery")
+    stock_list1.append("Batteries")
+    stock_list1.append("Twitter")
+    stock_list1.append("Powered")
+    stock_list1.append("Model Y")
+    stock_list1.append("Model S")
+    stock_list1.append("Star Link")
+    stock_list1.append("Model 3")
+    stock_list1.append("Model X")
+    stock_list1.append("openai")
+    stock_list1.append("AI")
+    stock_list1.append("Science")
+    stock_list1.append("Technology")
+    stock_list1.append("Falcon")
+    stock_list1.append("Moon")
+    stock_list1.append("Rocket")
+    stock_list1.append("Nasa")
+    stock_list1.append("Engine")
+    stock_list1.append("hyperloop")
+    stock_list1.append("jet")
+    stock_list1.append("physics")
+    stock_list1.append("solar")
+    stock_list1.append("solar city")
+    stock_list1.append("solar panel")
+    stock_list1.append("photocell")
 
+    scanning()
+
+    list_of_headlines = []
+
+    def display_headlines():
+        now = datetime.now()
+        global date_time
+        date_time = now.strftime("%H:%M:%S %m/%d/%Y")
+        for cnn_headline in cnn_headlines:
+            for stonk in stock_list1:
+                if stonk in cnn_headline.text:
+                    #make a list to add the headlines, so that I can print them or add them to the csv
+                    list_of_headlines.append(cnn_headline.text.replace(",","")+" "+","+tsla_price.text+" "+","+date_time)
+                    #print(cnn_headline.text)
+        for forbes_headline in forbes_headlines:
+            for stonk2 in stock_list1: 
+                if stonk2 in forbes_headline.text:
+                    list_of_headlines.append(forbes_headline.text.replace(",","")+" "+","+tsla_price.text+" "+","+date_time)
+                    #print(forbes_headline.text)
+        for bloomberg_headline in bloomberg_headlines:
+            for stonk3 in stock_list1: 
+                if stonk3 in bloomberg_headline.text:
+                    list_of_headlines.append(bloomberg_headline.text.replace(",","")+" "+","+tsla_price.text+" "+","+date_time)
+                    #print(bloomberg_headline.text)
+        for MW_headline in MW_headlines:
+            for stonk4 in stock_list1: 
+                if stonk4 in MW_headline.text:
+                    list_of_headlines.append(forbes_headline.text.replace(",","")+" "+","+tsla_price.text+" "+","+date_time)
+                    #print(forbes_headline.text)
+        for WSJ_headline in WSJ_headlines:
+            for stonk5 in stock_list1: 
+                if stonk5 in WSJ_headline.text:
+                    list_of_headlines.append(WSJ_headline.text.replace(",","")+" "+","+tsla_price.text+" "+","+date_time)
+                    #print(WSJ_headline.text)
+    display_headlines()
+    with open('headline_logs.csv', 'a') as f_object:
+        writer_object = writer(f_object)
+        for i in list_of_headlines[0:]:
+            writer_object.writerow([i])
+        f_object.close()
+
+
+
+
+scrape_logger()
+print("done1")
+#time.sleep(240)
+
+```
+\normalsize
+### How the Crawler Works
+
+Using `BeautifulSoup` to parse the HTML, 5 websites are crawled for their breaking news headlines, pulling every headline and saving them momentarily. The headlines are then sorted for each website, keeping only those headlines that contain words in our TSLA stock related word list named: `stock_list1`. The crawler then pulls current stock market data for TSLA and appends that price alongside a time stamp into a row inside a comma delimited `.csv` excel file named headline_logs. This collection makes up the raw data that was crawled from the websites.
+
+
+### Scanned Websites
+
+The Headline crawler scans the following websites for headlines related to the TSLA company:
+
+1. [CNN Business](https://www.cnn.com/business)
+2. [Forbes](https://www.forbes.com/)
+3. [Bloomberg Market Watchlist](https://www.bloomberg.com/markets/watchlist)
+4. [Market Watch](https://www.marketwatch.com/)
+5. [Wall Street Journal](https://www.wsj.com/news/latest-headlines)
+
+For the current stock price at the time of the headline, the headline crawler scans [CNBC](https://www.cnbc.com/quotes/TSLA) for the market quote on a TSLA share.
+
+## Data Import
 
 <br>
 
@@ -72,13 +265,13 @@ This pandemic is one of the most important events happening right now and the wa
 knitr::opts_chunk$set(echo = TRUE)
 require("knitr")
 
-opts_knit$set(root.dir = "C:/Users/William Roche/Downloads/School/MSDA/13 STAT 6382/P2/Data/COVID-19-master/COVID-19-master/csse_covid_19_data/csse_covid_19_daily_reports_us")
+opts_knit$set(root.dir = "C:/Users/William Roche/Downloads/School/MSDA/13 STAT 6382/Projects/Newsbot_2/Newsbot-2.0/NewsBot 2.0")
 
 #C:\Users\William Roche\Downloads\School\MSDA\13 STAT 6382\P2\Data\COVID-19-master\COVID-19-master\csse_covid_19_data\csse_covid_19_daily_reports_us
 
 # Setting working directory for the project
 
-
+library(png)
 library(broom)
 library(tidyverse)
 library(car)
@@ -87,6 +280,11 @@ library(MPV)
 library(cvTools)
 library(mctest)
 library(dplyr)
+library(stringr)
+library(ggplot2)
+library(lubridate)
+library(scales)
+library(corrplot)
 # Loading all necessary libraries
 
 
@@ -99,13 +297,13 @@ library(dplyr)
 
 The following libraries were used in the analysis:
 
-*dplyr, broom, tidyverse, olsrr, MPV, car, cvTools, MASS, bestNormalize, rcompanion, kader, sigmoid & mctest*
+*dplyr, broom, tidyverse, olsrr, MPV, car, cvTools, scales, ggplot2, corrplot, stringr, lubridate, & mctest*
 
 ```{r, include = FALSE, warning = FALSE, message = FALSE}
 
 # Installing packages required
-
-
+library(png)
+library(ggplot2)
 library(broom)
 library(tidyverse)
 library(olsrr)
@@ -114,496 +312,300 @@ library(car)
 library(cvTools)
 library(mctest)
 library(dplyr)
-
+library(stringr)
+library(lubridate)
+library(scales)
+library(corrplot)
 ```
 
-# Initial Data Loading & Transforming
+The data includes any news related to Tesla or its subsidiaries, which includes but is not limited to space exploration, SpaceX, battery technology advancements, Elon Musk, Twitter and a lot more keywords logged in our word list. The raw data consists of a single row containing 3 observations, a headline, the time stamp and the stock price at the current time. These cells are then separated by an empty buffer cell (Fig. 1).
 
-The Covid-19 Confirmed-Deaths-Recovered statistics for the entire world were loaded and simplified to the area of concern. The data consists of tables of daily statistcs from 1-22-2020 to 4-09-2020 for the entire world. The USA was isolated from the world, and the data was joined together which then showed an exponential increase in cases from the 3 month time period. Next, the variables were isolated for a singular date and then combined with state specific statistics in order to pinpoint a trend in the CDR ratio of the virus. After all tables were joined, the variable names were all simplified to; y, x1, x2, etc, for clean model building. As a final step before any analysis, all regressors are converted from integer class to numeric, in an attempt to preserve details since we are dealing with big numbers (US population).
+![Raw Data](images/raw.png)
 
+# Data Wrangling
+
+## Cleaning data
+
+Within Excel, the data is then cleaned starting by deleting all empty row buffer spaces between headlines. The single cells are then separated by commas into three columns. The columns are then names as follows; Headline, Price, Date. Using Excel, a fourth column is created named `Stock Direction` which indicates whether the stock price has increased, decreased or remained the same, denoted by -1, 0, and 1. Before importing the data into r studio one final step is to remove any duplicate rows of data. In some instances as the headline crawler is scanning headlines, the headlines themselves do not change and so this results in multple rows of the same data. Therefore we delete the duplicates and move on to creating a workable dataframe.
 
 
 ```{r, include = FALSE, warning = FALSE, message = FALSE}
-
 # Loading Data + Cleaning
-
-jan22 <- read.csv("01-22-2020.csv")
-
+data <- read.csv("headline_logs1 - Copy.csv")
 #This step was done to each dataset for the timeframe, but is hidden in order to conserve space
-
-
 ```
 
 
+After importing the excel file into r studio, we define our dataframe.
+\scriptsize
+```{r, include = TRUE, warning = FALSE, message = FALSE}
+head(data)
+```
+\normalsize
+## Additional Data
 
-```{r, include = FALSE, warning = FALSE, message = FALSE}
+### Positive and Negative Wordlists
+
+We create two lists of words, `positive_words` and `negative_words` in order to see if they are contained within the headlines. Within the two lists there are a total of 266 positive words and 254 negative words to pick from when reading each headline.
+\scriptsize
+```{r, include = TRUE, warning = FALSE, message = FALSE}
+positive_words <- 
+  c("absolutely" , "accepted" , "acclaimed" , "accomplish" , "accomplishment" , "achievement" , "action" , "active" , "admire" ,
+    "adorable" , "adventure" , "affirmative" , "affluent" , "agree" , "agreeable" , "amazing" , "angelic" , "appealing" ,
+    "approve" , "aptitude" , "attractive" , "awesome" , "beaming" , "beautiful" , "believe" , "beneficial" , "bliss" ,
+    "bountiful" , "bounty" , "brave" , "bravo" , "brilliant" , "bubbly" , "calm" , "celebrated" , "certain" , "champ" ,
+    "champion" , "charming" , "cheery" , "choice" , "classic" , "classical" , "clean" , "commend" , "composed" ,
+    "congratulation" , "constant" , "cool" , "courageous" , "creative" , "cute" , "dazzling" , "delight" , "delightful" ,
+    "distinguished" , "divine" , "earnest" , "easy" , "ecstatic" , "effective" , "effervescent" , "efficient" , "effortless" ,
+    "electrifying" , "elegant" , "enchanting" , "encouraging" , "endorsed" , "energetic" , "energized" , "engaging" , 
+    "enthusiastic" , "essential" , "esteemed" , "ethical" , "excellent" , "exciting" , "exquisite" , "fabulous" , "fair" , 
+    "familiar" , "famous" , "fantastic" , "favorable" , "fetching" , "fine" , "fitting" , "flourishing" , "fortunate" , "free" ,
+    "fresh" , "friendly" , "fun" , "funny" , "generous" , "genius" , "genuine" , "giving" , "glamorous" , "glowing" , "good" ,
+    "gorgeous" , "graceful" , "great" , "green" , "grin" , "growing" , "handsome" , "happy" , "harmonious" , "healing" , "healthy" ,
+    "hearty" , "heavenly" , "honest" , "honorable" , "honored" , "hug" , "idea" , "ideal" , "imaginative" , "imagine" , 
+    "impressive" , "independent" , "innovate" , "innovative" , "instant" , "instantaneous" , "instinctive" , "intellectual" , 
+    "intelligent" , "intuitive" , "inventive" , "jovial" , "joy" , "jubilant" , "keen" , "kind" , "knowing" , "knowledgeable" , 
+    "laugh" , "learned" , "legendary" , "light" , "lively" ,  "lovely" , "lucid" , "lucky" , "luminous" , "marvelous" , "masterful" ,
+    "meaningful" , "merit" , "meritorious" , "miraculous" , "motivating" , "moving" , "natural" , "nice" , "novel" , "now" , 
+    "nurturing" , "nutritious" , "okay" , "one" , "one-hundred percent" , "open" , "optimistic" , "paradise" , "perfect" , 
+    "phenomenal" , "pleasant" , "pleasurable" , "plentiful" , "poised" , "polished" , "popular" , "positive" , "powerful" , 
+    "prepared" , "pretty" , "principled" , "productive" , "progress" , "prominent" , "protected" , "proud" , "quality" , "quick" ,
+    "quiet" , "ready" , "reassuring" , "refined" , "refreshing" , "rejoice" , "reliable" , "remarkable" , "resounding" , "respected" ,
+    "restored" , "reward" , "rewarding" , "right" , "robust" , "safe" , "satisfactory" , "secure" , "seemly" , "simple" , "skilled" ,
+    "skillful" , "smile" , "soulful" , "sparkling" , "special" , "spirited" , "spiritual" , "stirring" , "stunning" , "stupendous" ,
+    "success" , "successful" , "sunny" , "super" , "superb" , "supporting" , "surprising" , "terrific" , "thorough" , "thrilling" ,
+    "thriving" , "tops" , "tranquil" , "transformative" , "transforming" , "trusting" , "truthful" , "unreal" , "unwavering" , "up" ,
+    "upright" , "upstanding" , "valued" , "vibrant" , "victorious" , "victory" , "vigorous" , "virtuous" , "vital" , "vivacious" ,
+    "wealthy" , "welcome" , "well" , "whole" , "wholesome" , "willing" , "wonderful" , "wondrous" , "worthy" , "wow" , "yes" ,
+    "yummy" , "zeal" , "zealous")
 
 
+negative_words <- 
+  c("abysmal" , "adverse" , "alarming" , "angry" , "annoy" , "anxious" , "apathy" , "appalling" , "atrocious" , "attorney" ,
+    "awful" , "bad" , "banal" , "barbed" , "belligerent" , "bemoan" , "beneath" , "blocked" , "blow" , "blew" , "boring" ,
+    "broken" , "callous" , "can't" , "case" , "clumsy" , "coarse" , "cold" , "cold-hearted" , "collapse" , "confused" ,
+    "concerns", "contradictory" , "contrary" , "corrosive" , "corrupt" , "crazy" , "crash" , "creepy" , "criminal" , "cruel" ,
+    "cry" , "cutting" , "damage" , "damaging" , "dastardly" , "dead" , "decaying" , "deformed" , "deny" , "deplorable" ,
+    "depressed" , "deprived" , "despicable" , "detrimental" , "dirty" , "disease" , "disgusting" , "disheveled" ,
+    "dishonest" , "dishonorable" , "dismal" , "distress" , "don't" , "dreadful" , "dreary" , "enraged" , "eroding" , "evil" ,
+    "explode" , "fail" , "fall" , "faulty" , "fear" , "fell" , "feeble" , "fight" , "filthy" , "foul" , "frighten" ,
+    "frightful" , "gawky" , "ghastly" , "grave" , "greed" , "grim" , "grimace" , "gross" , "grotesque" , "gruesome" ,
+    "guilty" , "haggard" , "hard" , "hard-hearted" , "harmful" , "hate" , "hideous" , "homely" , "horrendous" , "horrible" ,
+    "hostile" , "hurthurtful" , "icky" , "ignorant" , "ignore" , "ill" , "immature" , "imperfect" , "impossible" , "inane" ,
+    "inelegant" , "infernal" , "injure" , "injurious" , "insane" , "insidious" , "insipid" , "jealous" , "junky" , "lose" ,
+    "lousy" , "lumpy" , "malicious" , "mean" , "menacing" , "messy" , "misshapen" , "missing" , "misunderstood" , "moan" ,
+    "moldy" , "monstrous" , "naive" , "nasty" , "naughty" , "negate" , "negative" , "never" , "no" , "nobody" , "nondescript" ,
+    "nonsense" , "not" , "noxious" , "objectionable" , "odious" , "offensive" , "old" , "oppressive" , "pain" , "perturb" ,
+    "pessimistic" , "petty" , "plain" , "poisonous" , "poor" , "prejudice" , "questionable" , "quirky" , "quit" , "reject" ,
+    "repellant" , "reptilian" , "repugnant" , "repulsive" , "revenge" , "revolting" , "rocky" , "rotten" , "rude" , "ruthless" ,
+    "sad" , "savage" , "scare" , "scary" , "scream" , "severe" , "shocking" , "shoddy" , "sick" , "sickening" , "sinister" ,
+    "slimy" , "smelly" , "sobbing" , "sorry" , "spiteful" , "sticky" , "stinky" , "stormy" , "stressful" , "stuck" , "stupid" ,
+    "substandard" , "sue" , "suspect" , "suspicious" , "tense" , "terrible" , "terrifying" , "threatening" , "ugly" ,
+    "undermine" , "unfair" , "unfavorable" , "unhappy" , "unhealthy" , "unjust" , "unlucky" , "unpleasant" , "unsatisfactory" ,
+    "unsightly" , "untoward" , "unwanted" , "unwelcome" , "unwholesome" , "unwieldy" , "unwise" , "upset" , "vice" , "vicious" ,
+    "vile" , "villainous" , "vindictive" , "wary" , "weary" , "wicked" , "woeful" , "worthless" , "wound" , "yell" , "yucky" ,
+    "zero" , "zilch")
+```
+\normalsize
+## Counting Positive/Negative Word Occurances
+
+Using the `str_count` function we count how many positive and negative words are contained within a headline and record them in a new column.
+```{r, include = TRUE, warning = FALSE, message = FALSE}
+data$positive_w <-0
+data$negative_w <-0
+
+
+for (i in 1:nrow(data)){
+  data$positive_w[i] <- sum(str_count(data$Headline[i], positive_words))
+  data$negative_w[i] <- sum(str_count(data$Headline[i], negative_words))
+}
 ```
 
 
-
-```{r, include = FALSE, warning = FALSE, message = FALSE}
-
-
-
-```
-
-
-
-```{r, include = FALSE, warning = FALSE, message = FALSE}
-
-```
-
-
-
-```{r, include = FALSE, warning = FALSE, message = FALSE}
-
-#**Ommiting `NA` rows & replacing them with `0`**
-#We choose to omit rows with `NA` values in order to make calculations error-free and set them to 0.
-
-Covid19_data[c("Confirmed", "Deaths", "Recovered")][is.na(Covid19_data[c("Confirmed", "Deaths", "Recovered")])] <- 0
-
-#summary(Covid19_data)
-
-
-```
-
-
-
-```{r, include = FALSE, warning = FALSE, message = FALSE}
+```{r, warning = FALSE, message = FALSE, include=FALSE}
 
 # Changing `Last_Update` column from character class to date.
 
-Covid19_data$Date <- as.Date.character(Covid19_data$Last.Update, "%m/%d/%Y")
-
+#Covid19_data$Date <- as.Date.character(Covid19_data$Last.Update, "%m/%d/%Y")
+length(positive_words)
+length(negative_words)
 ```
+## Creating `influence` variable
 
+We create the `influence` variable as the difference between the negative and positive word count.
+```{r warning = FALSE, message = FALSE}
 
+data$influence <- data$negative_w - data$positive_w
 
-```{r, include = FALSE, warning = FALSE, message = FALSE}
-
+#data$Date <- as.Date.character(data$Date, "%m/%d/%Y")
+data$Date_fixed <- 1:nrow(data)
 ```
-
-
-
-```{r, include = FALSE, warning = FALSE, message = FALSE}
-
-```
-
-
-
-```{r, include = FALSE, warning = FALSE, message = FALSE}
-
-```
-
-
-
-```{r, include = FALSE, warning = FALSE, message = FALSE}
-
-```
-
-
-
-```{r, echo = FALSE, warning = FALSE, message = FALSE}
-
-base_model <- bind_cols(regressors, Covid19_US_State_data)
-
-base_model$State <- NULL
-
-base_model <- base_model %>%
-  rename("x1" = RAIN , "x2" = POP, "x3" = POP.DENSITY, "x4" = AGE, "x5" = DAYS, "x6" = BUDGET, "y" = Deaths_Daily, "x7" = Confirmed_Daily, "x8" = RAIN_GROUPED, "x9" = DISTANCE, "x10" = AIRPORT, "x11" = ELDER, "x12" = INFANT, "x15" = HAS_BEACH, "x16" = PARKS, "x17" = TRAFFIC, "x18" = RH, "x19" = DEW, "x20" = POV, "x21" = EMP, "x22" = INCOME, "x23" =  DISABLE, "x24" = UNINSURED)
-
-base_model$Date <- NULL
-base_model$Country.Region <- NULL
-
-
-base_model <- base_model %>%
-  dplyr::select(Province.State, y, x1, x2, x3, x4, x5, x6, x7, x8, x9, x10, x11, x12, x15, x16, x17, x18, x19, x20, x21, x22, x23, x24)
-
-base_model$x2 <- as.numeric(base_model$x2)
-base_model$x3 <- as.numeric(base_model$x3)
-base_model$x5 <- as.numeric(base_model$x5)
-base_model$x11 <- as.numeric(base_model$x11)
-base_model$x12 <- as.numeric(base_model$x12)
-base_model$x11.1 <- NULL
-base_model$x12.2 <- NULL
-
-
-```
-
-
-
-```{r, warning = FALSE, message = FALSE, include = FALSE}
-
-```
-<br>
-
-
-```{r, warning = FALSE, message = FALSE, include = FALSE}
-
-```
-
-
-
-```{r, include = FALSE, warning = FALSE, message = FALSE}
-Covid19_data <- Covid19_data %>% 
-  group_by(Country.Region, Date) %>% 
-  mutate(Recovered_Daily = sum(Recovered))
-
-
-Covid19_USdata <- Covid19_data %>%
-  filter(Country.Region   %in% c("US")) %>%
-  dplyr::select(Province.State, Country.Region, Date, Confirmed_Daily, Deaths_Daily, Recovered_Daily)
-
-
-#ggplot(Covid19_USdata, aes(x = Date, y = Confirmed_Daily) ) + geom_point() + geom_smooth(type = lm, se=T, ) + labs(title = "USA Covid19 Confirmed cases", subtitle = "March 31, 2020", y = "Cases Confirmed", x = "Last update")
-
-
-```
-<br>
-
-
-```{r, message = FALSE, warning = FALSE, echo = FALSE, fig.height = 4, fig.width = 6}
-
-ggplot(Covid19_USdata, aes(x = Date, y = Confirmed_Daily) ) + geom_point() + geom_smooth(type = lm, se = T, ) + labs(title = "USA Covid-19 Confirmed cases", subtitle = "January 22, 2020 - April 9, 2020", y = "Cases Confirmed", x = "Date")
-
-
-```
-*Initial data loading shows an exponential trend between the confirmed cases as time progressed from January 22, 2020 until April 9, 2020. As a preface this exponential growth may have influence over the model.*
 
 
 <br>
 
-
-## Data loading and manipulation
-
-We load our base data and organize it into the United States and then each state. Next we joined another data table containing multiple variables we researched and compiled.
-All of the variables are changed to numeric class except for the Province_State character class in order to identify specific states. After all data is joined and correctly formatted, each column is renamed to x1, x2,...xn.
+# Data Analysis & Modeling
 
 
+```{r, message = FALSE, warning = FALSE, echo = FALSE}
+str(data)
+```
 
-# Regressors and thier respective coefficients
-
-Intercept = 94.030
-
-**x1** = -4.098 = Average precipitation per year
-
-**x2** = 1.072e-06 = Population
-
-**x3** = -0.118 = Population density (p/mi^2 | person per square mile)
-
-**x4** = 26.370 = Average age of resident
-
-**x5** = -2.896 = Number of days between first US case and lockdown/shelter-in-place order
-
-**x6** = -1.442 = State Expenditures for the 2018 fiscal year
-
-**x7** = -0.029 = Confirmed COVID-19 cases daily
-
-**x8** = 2.248 = Rainfall grouped by ranges: 1"-10", 11"-20", 21"-30", 31"-40", 41"-50", 51"-60" 
-
-**x9** = -0.024 = Distance from capital to the closest of the 5 states with the first case
-
-**x10** = 7.052 = If the state have an airport
-
-**x11** = -43.460 = Elder population 65 >= %
-
-**x12** = -16.380 = Infant population 5 <= %
-
-**x15** = 12.950 = If the state has a beach
-
-**x16** = 0.303 = Number of state parks
-
-**x17** = -5.350e-07 = Airport Traffic
-
-**x18** = 0.737 = Relative humidity
-
-**x19** = 5.016  = Average Dew point
-
-**x20** = 11.360  = Poverty percentage
-
-**x21** = -2.447 = Employment percentage
-
-**x22** = 6.132e-05 = Median houshold income
-
-**x23** = -6.627 = Disability percentage
-
-**x24** = -9.218 = Uninsured percentage (Health)
-
-**x25** = 1.966e-06 = deaths/cases
+<br>
 
 
+## Regressors and thier respective coefficients
 
-```{r, echo = FALSE, warning = FALSE, message = FALSE}
+
+Intercept = $$e$$
+
+$y$ *[Stock.Direction](Dependent Variable) = Shows whether the stock price increased, decreased or stayed the same based on the previous scanned value. (-1 = stock price decrease, 0 = no change in stock price, 1 = stock price increase)*
+
+$x_1$ *[Positive_w](Independent Variable) = Shows the total count of positive words contained in the TSLA headline.*
+
+$x_2$ *[Negative_w](Independent Variable) = Shows the total count of negative words contained in the TSLA headline.*
+
+$x_3$ *[Influence](Independent Variable) = The positive word count minus the Negative word count, showing overall influence of headline.*
+
+$x_4$ *[Price](Independent Variable) = Shows the current stock price for TSLA stock.*
+
+*[Date](Independent Variable) = Shows the time at which the data was accessed.*
+
+
+# Visualizing data
+
+
+## Looking at the Data
+
+<br>
+
+Taking a look at how the data collected shows the price fluctuations in TSLA.
+\normalsize
+```{r, warning = FALSE, message = FALSE,fig.align = 'right', fig.cap = "Fig. 1",echo=FALSE}
+
+plot(data$Price, main = "TSLA Price Over Time", xlab = "Time", ylab = "Price($)") 
 
 ```
 <br>
 
+\normalsize
 
+## Distribution of Variables
 
-# Base multiple regression model
+```{r, warning = FALSE, message = FALSE, fig.cap = "Fig. 2",echo=FALSE}
+par(mfrow=c(2,2))
+plot(data$Stock.Direction, main="Stock Direction")
+plot(data$positive_w, main="Positive Counts")
+plot(data$negative_w, main="Negative Counts")
+plot(data$influence, main="Influence")
+```
+## Summary Statistics
 
-```{r, echo = FALSE, message = FALSE, warning = FALSE}
+```{r warning = FALSE, message = FALSE,echo=FALSE}
+#plot(data$Date, data$Price)
 
-model1 <- lm(y~x1 +x2 +x3 +x4 +x5 +x6 +x7 +x8 +x9 +x10 +x11 +x12 +x15 +x16 +x17 +x18 
-             +x19 +x20 +x21 +x22 +x23 +x24 +x25, base_model)
+data$Date2 <- as.POSIXct(data$Date, format= "%m/%d/%Y %H:%M")
+#plot(data$NewDate,data$Price, type = "p")
+#date <- as.POSIXct(data$Date, format= "%m/%d/%Y %H:%M") 
+#plot(data$Date2,data$Price, type = "p", xlim=as.POSIXct("11/22/2022 00:00:00","12/02/2022 23:59:59"))
 
-summary(model1)
+data$date22 <- mdy_hms(data$Date,tz=Sys.timezone())
 
-
+summary(data)
 ```
 
-**Our fitted multiple regression model is:**
-
-
-y_hat = 94.030 - (4.098)x1 + (0)x2 - (0.118)x3 + (26.370)x4 - (2.896)x5 - (1.442)x6 - (0.029)x7 + (2.248)x8 - (0.024)x9 + (7.052)x10 - (43.460)x11 - (16.380)x12 + (12.950)x15 + (0.303)x16 + (0)x17 + (0.737)x18 + (5.016)x19 + (11.360)x20 - (2.447)x21 + (0)x22 - (6.627)x23 - (9.218)x24 + (0)x25
-
-
-<br>
-
-## Residual analysis
-
-```{r, warning = FALSE, message = FALSE, echo = FALSE, fig1, fig.height = 3, fig.width = 3}
-
-qqnorm(model1$residuals)
-qqline(model1$residuals)
-
-plot(model1$fit, model1$residuals)
-abline(h=0,col='red')
-
-
+```{r warning = FALSE, message = FALSE,fig.cap = "Fig. 3",echo=FALSE}
+plot(data$date22,data$Price, type = "p", main ="TSLA Price Distribution", xlab = "Date", ylab = "TSLA Stock Price ($)")
 ```
 
-The residuals vs fitted plot shows us that the residuals are relatively normally scattered, although they bunch towards 0 which indicates a transformation is necessary. The Normal Q-Q plot shows that the quantiles are normal towards the center but have an outlier near the right tail. This model could be adequate with a transformation, but further analysis is needed to be more certain.
+## Establishing correlation and directionality of data
 
+The correlation matrix shows high amounts of correlation between positive and negative words as well as influence. This can all be explained due to the fact the they all work together. Both positive and negative words make up the influence. They are also linked to gether as oppoites which can explain the correlation.
+```{r warning = FALSE, message = FALSE, fig.cap="Fig. 4",echo=FALSE}
+library(corrplot)
 
-# Is the regression significant? 
+data_n <- data %>%
+  dplyr::select(Stock.Direction, positive_w, negative_w, influence, Price)
+data_cor <- cor(data_n)
 
+corrplot(data_cor)
+model_1 <- lm(Stock.Direction~ positive_w+negative_w+influence,data)
 
-**Our Null and Alternative Hypothesis:**
+model_2 <- lm(Stock.Direction~ influence,data)
 
-**H0 :** B1 = B2 = B3 = B4 = B5 = B5 = B6 = B7 = B8 = B9 = B10 = B12 = B13 = B14 = B15 = B16 = B17 = B18 = B19 = B20 = B21 = B22 = B23 = B24 = B25 = 0
-
-**HA :** At least one slope coefficient is not = 0
-
-From the summary statistics of our multiple linear regression found earlier, we can see that with a p-value of 2.2e-16, nearly zero, we can reject the null hypothesis and conclude that at least one slope coefficient is not equal to zero, which means that the regression model is in fact significant.
-
-
-
-# Variance inflation factors
-
-```{r, echo = FALSE, warning = FALSE, message = FALSE}
-
-vif(model1)
-
+model_3 <- lm(Stock.Direction~ Price+influence,data)
 
 ```
+# Models
 
-From the variance inflation factors we can see that variables x2, x4, x6, x7 and x11 exhibit extreme values indicating very high correlation. Also, variables x1, x8, x12, x17, x19, x20, x21, x22, x23, x25 show signs of moderate to high correlation.
+## Multiple Regression (MLR) Model
 
+Building a multiple linear regression model, model_1 using positive words, negative words and influence in order to explain stock direction movements.
+```{r warning = FALSE, message = FALSE,echo=FALSE}
+model_1 <- lm(Stock.Direction~ positive_w+negative_w+influence,data)
 
-
-# Correlation between variables
-
-```{r, echo = FALSE, warning = FALSE, message = FALSE}
-
-#cor(base_model[3:27])
-cor(base_model[9],base_model[27])
-cor(base_model[25],base_model[26])
-cor(base_model[4],base_model[8])
-
-
-```
-
-From our correlation table we can see that the 9th & 27th variables or x7 & x25, x13 & x14, & 2nd & 8th variables x2 & x6 are the most correlated amogst themselves. Plotting these variables against each other further proves a relationship is present.
-
-
-
-# Plotting correlated variables
-
-```{r, warning = FALSE, message = FALSE, echo = FALSE, fig.height = 3, fig.width = 3}
-
-plot(base_model[,3], base_model[,27], main = "Confirmed vs Deaths/Confirmed", sub = "correlation = 0.9499125", xlab = "Confirmed Cases", ylab = "Deaths/Confirmed Cases",
-      line = NA, outer = FALSE)
-
+summary(model_1)
 
 ```
 
 
+Building a multiple linear regression model, model_3 using price and influence in order to explain stock direction movements.
+```{r warning = FALSE, message = FALSE,echo=FALSE}
+model_3 <- lm(Stock.Direction~ Price+influence,data)
 
-```{r, warning = FALSE, message = FALSE, echo = FALSE, fig.height = 3, fig.width = 3}
-
-plot(base_model[,25],base_model[,26], main = "Elder Population vs Infant Population", sub = "correlation = 0.9558531", xlab = "Elder population", ylab = "Infant population",
-      line = NA, outer = FALSE)
-
-
-```
-
-
-
-```{r, warning = FALSE, message = FALSE, echo = FALSE, fig.height = 3, fig.width = 3}
-
-plot(base_model[,4],base_model[,8], main = "State Expenditure vs Total Population", sub = "correlation = 0.9398963", xlab = "Total population", ylab = "State Expenditure (billions)",
-      line = NA, outer = FALSE)
-
+summary(model_2)
 
 ```
 
 
+## Simple Linear Regression (SLR) Model
 
-# Eigen System Analysis
+Building a simple linear regression model, model_2 using influence in order to explain stock direction movements.
+```{r warning = FALSE, message = FALSE,echo=FALSE}
+model_2 <- lm(Stock.Direction~ influence,data)
 
-```{r, warning = FALSE, message = FALSE, echo = FALSE, fig.height = 5, fig.width = 5}
-stdx=scale(base_model[,2:27])  
-exx= eigen( t(stdx)%*%stdx) 
-#exx 
-max(exx$values)/min(exx$values)
-```
-
-The analysis of the eigensystem above shows us that, with a k value of ~133,174.1, the spread of the eigen values indicates moderate to strong multicollinearity.
-
-After thorough analysis, multicollinearity exists in the current regression model, with regressors x7 & x25, x13 & x14, & x2 & x6 showing high correlation.
-
-
-# Transformations
-
-We choose to drop variables x2(Population), x17(Airport Traffic), x22(Average Household Income), x25(Deaths/Confirmed cases) since they are near zero, before making transformations to the model in order to combat multicollinearity.
-
-
-
-```{r, warning = FALSE, message = FALSE, echo = FALSE, fig.height = 3, fig.width = 3}
-
-model_3 <- lm(sqrt(y)~x1 +x2 +x3 +x4 +x5 +x6 +x7 +x8 +x9 +x10 +x13 +x14 +x15 
-              +x16 +x17 +x18 +x19 +x20 +x21 +x22 +x23 +x24 +x25, base_model)
-
-#plot(model_3$fit, model1$residuals)
-#abline(h=0,col='red')
-
-plot(model_3$fit, model_3$residuals)
-abline(h=0,col='red')
-
-# Square root is better, but still not optimal
-
-
-```
-<br>
-
-
-# **Model without Transformations:**
-
-```{r, warning = FALSE, message = FALSE, echo = FALSE, fig.height = 3, fig.width = 3}
-
-model_4 <- lm(y~x1 +x3 +x4 +x5 +x6 +x7 +x8 +x9 +x10 +x13 +x14 +x15 +x16 
-              +x18 +x19 +x20 +x21 +x23 +x24, base_model)
-
-plot(model_4$fit, model1$residuals)
-abline(h=0,col='red')
-
+summary(model_2)
 
 ```
 
-*Model without near zero coefficient regressors, no other transformations applied.*
+## Best Model
 
+Using the `ols_step_all_possible` function we derive the best possible model for our data, with the given regressors.
+```{r,warning=FALSE, message=FALSE}
+all <- lm(Stock.Direction ~positive_w +negative_w +influence +Price,data)
 
+k <- ols_step_all_possible(all)
 
-```{r, warning = FALSE, message = FALSE, echo = FALSE, fig.height = 5, fig.width = 5}
-library(MASS)
-library(bestNormalize)
-#yeojohnson(y, eps = 0.001, standardize = TRUE)
-
-
-```
-
-
-
-```{r, include = FALSE, warning = FALSE, message = FALSE}
-
-library(rcompanion)
-new_y <- transformTukey(base_model$y)
-
-model_63 <- lm(new_y~x1 +x3 +x4 +x5 +x6 +x7 +x8 +x9 +x10 +x11 +x12 +x15 
-               +x16 +x18 +x19 +x20 +x21 +x23 +x24, base_model)
-
-plot(model_63)
-
-
-```
-
-
-
-```{r, echo = FALSE, warning = FALSE, message = FALSE}
-
-plot(model_63$fit, model_63$residuals)
-abline(h=0,col='red')
-
-
-```
-
-
-*Using the transformTukey function, which performs iterative Shapiro–Wilk tests to find the lambda value that maximizes the W statistic from those tests. We can see a considerably better fit compared to the model without any transformations.*
-
-## Transformed Model with new Y 
-
-
-```{r, warning = FALSE, message = FALSE, echo = FALSE, fig.height = 2.5, fig.width = 2.5}
-
-model_64 <- lm(new_y~x1 +x2 +x3 +x4 +x5 +x7 +x9 +x11 +x12 +x15 +x16 
-               +x17 +x19 +x20 +x24, base_model)
-
-plot(model_64)
-
-
-```
-
-*Observation 32 is for New York which is a crucial influencial point, which is beyond Cook's ideal distance in the leverage plot.*
-
-# Choosing best possible model
-
-
-```{r, warning = FALSE, message = FALSE, echo = FALSE}
-
-k <- ols_step_all_possible(model_64)
-#plot(k)
-
-```
-
-
-
-We filter all possible models for high R squared values as well as lowest Mallow's CP value. The high R squared value represents the proportion of the variance that is explained by our model. The lower value for Mallow's CP shows how much error is left unexplained. With a higher R squared value coupled with the lowest CP value we have come up with the best possible model as follows.
-```{r, echo = FALSE, warning = FALSE, message = FALSE}
-#str(k)
 bestmodel <- k%>%
-  filter(rsquare >= 0.5) %>%
+  filter(rsquare >= 0.00005) %>%
   filter(cp <= 5) %>%
   arrange(cp) %>%
   head(1)
 
 bestmodel
-#summary(k)
 ```
 
+Comparing our SLR, MLR and best possible model the models seem to fall very short of our expectations. Instead of explaining the dependent variable the regressors are doing the opposite. They are in fact not doing anything at all to explain the variance in stock price fluctuations. The Adjusted r squared values are atrocious to begin with. At this point we need to stop and reflect at the design of this project.
+
+# Conclusion
+
+Our models failed to provide adequate evidence of any causation. We are left with our questions unanswered, but could it be that there are simply too many external factors keeping the stock prices somewhat unpredictable from news headlines alone? One point we might have unintentionally proved is that the stock market, based on our short analysis of TSLA price movements, is quite complex and the future is indeed unpredictable to a certain extent. It is also noteworthy, that although the idea was there, data collection methods were successful. The direction of the project seems promising. For the future of this project we can simply collect more data. It seems like there are good methods of collecting data, but not enough of the data itself in this analysis. The word lists could also use some revamping. By enhancing these lists the observations would become more sensitive, providing more granular results and possible helping form a better picture. Another point of interest would be tracking multiple stocks alongside TSLA, in order to cut down on bias and more so normalize the data. Also, we can expand the reach of the headline scrapper to other websites that way there is no stone left unturned and we don't miss any headlines. Lastly, we could implement machine learning to detect influential words better than doing it ourselves and branch off from there in order to solve this problem.
 
 
-```{r, warning = FALSE, message = FALSE, echo = FALSE, fig.height = 5, fig.width = 5}
-
-summary(lm(new_y ~ x5 + x7 +x9+x11+x15+x19, base_model))
 
 
-```
-
-# Best Model
-
-y_hat = 3.606 - 0.02191(Lockdown quickness) + 0.00001866(Confirmed cases) - 0.0005861(Distance to nearest major epicenter) - 0.08446(Elder population percentage) + 0.2377(State has a beach) + 0.0308(Average dew point)
-
-**The Coefficients can be scaled, they are low due to the shear size of the populations in this analysis.**
-
-<br>
 
 
-# Final Remarks
 
-As our analysis comes to a close, we can see that there is merit to our hypothesis noted at the beginning of the report. There is in fact a significant relationship between quickness of lockdown, population size by state, and distance of case from the first 5 cases in the USA. Also, the elder population above 65 years of age tend to not be affected more adversely. This could be due to the fact that retirement homes and elderly care facilities reacted with caution after initial widespread cases in the elderly population. Lockdown quickness and the distance to the nearest major epicenter relatively had positive effects on the total number of deaths from the virus. This could be attributed to the vast spread of the virus from the start, which could have further caused some error in measurement. The presence of a beach has negative consequences as found by the report. Since beaches are large scale areas where mass amounts of people gather in close distances, the virus spreads easily. States that have beaches are more susceptible to more deaths according to the analysis. Additionally, a higher dew point has a positive relationship with the number of deaths due to COVID-19. The regressor shows that the virus either thrives in or is causing increased deaths in higher dew points. We used dew points in our analysis in lieu of average temperature because dew points are more reliable. The finding is quite interesting and may lead to further research on how the COVID-19 virus reacts to temperature differences.
+
+
+
+
+
+
+
+
+
 
 
 <br>
@@ -620,8 +622,19 @@ https://cran.r-project.org/web/packages/kader/kader.pdf
 
 https://www.rdocumentation.org/packages/olsrr/versions/0.5.3/topics/ols_step_all_possible
 
+https://www.cnn.com/business
 
+https://www.forbes.com/
 
+https://www.bloomberg.com/markets/watchlist
+
+https://www.marketwatch.com/
+
+https://www.wsj.com/news/latest-headlines
+
+https://www.cnbc.com/quotes/TSLA
+
+https://investopedia.com
 
 
 
